@@ -7431,3 +7431,819 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.e
 [31Jan2026 21:31:23.135] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Loranfayuaa lost connection: Disconnected
 [31Jan2026 21:31:23.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loranfayuaa left the game
 [31Jan2026 21:31:23.136] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for f0de2357-de91-3a02-a302-14ecf1ecf24d
+[31Jan2026 21:57:59.647] [ForkJoinPool.commonPool-worker-14/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:Loranfayuaa'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.mdf8f3b9$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.mdf8f3b9$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:573) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1781) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?]
+[31Jan2026 21:57:59.692] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Loranfayuaa[/127.22.188.157:55397] logged in with entity id 151800 at (-369.40737965245444, 63.0, -385.6092875962404)
+[31Jan2026 21:57:59.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loranfayuaa joined the game
+[31Jan2026 21:57:59.718] [Server thread/INFO] [Jade/]: Syncing config to Loranfayuaa (f0de2357-de91-3a02-a302-14ecf1ecf24d)
+[31Jan2026 21:57:59.718] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for f0de2357-de91-3a02-a302-14ecf1ecf24d
+[31Jan2026 22:00:08.142] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:00:10.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loranfayuaa has made the advancement [Not Today, Thank You]
+[31Jan2026 22:00:25.296] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:00:31.135] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:00:37.343] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:00:38.845] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:00:39.343] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:00:42.006] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:00:46.342] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:01:04.601] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:01:04.602] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon eventPlayerContainerEvent(Lnet/minecraftforge/event/entity/player/PlayerContainerEvent$Open;)V
+		2: NORMAL
+		3: ASM: class com.scarasol.sona.event.ManagerEventHandler onOpen(Lnet/minecraftforge/event/entity/player/PlayerContainerEvent$Open;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.manager.RotManager.containerOpen(RotManager.java:206)
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.event.ManagerEventHandler.onOpen(ManagerEventHandler.java:189)
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.event.__ManagerEventHandler_onOpen_Open.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_5893_(ServerPlayer.java:974)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.CraftingTableBlock.m_6227_(CraftingTableBlock.java:30)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:351)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1057)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[31Jan2026 22:01:04.603] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@58d68025, suppressing error
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	at com.scarasol.sona.manager.RotManager.containerOpen(RotManager.java:206) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at com.scarasol.sona.event.ManagerEventHandler.onOpen(ManagerEventHandler.java:189) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at com.scarasol.sona.event.__ManagerEventHandler_onOpen_Open.invoke(.dynamic) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_5893_(ServerPlayer.java:974) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.block.CraftingTableBlock.m_6227_(CraftingTableBlock.java:30) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:351) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1057) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[31Jan2026 22:01:24.778] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:01:24.780] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon eventPlayerContainerEvent(Lnet/minecraftforge/event/entity/player/PlayerContainerEvent$Open;)V
+		2: NORMAL
+		3: ASM: class com.scarasol.sona.event.ManagerEventHandler onOpen(Lnet/minecraftforge/event/entity/player/PlayerContainerEvent$Open;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.manager.RotManager.containerOpen(RotManager.java:206)
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.event.ManagerEventHandler.onOpen(ManagerEventHandler.java:189)
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.event.__ManagerEventHandler_onOpen_Open.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_5893_(ServerPlayer.java:974)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.CraftingTableBlock.m_6227_(CraftingTableBlock.java:30)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:351)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1057)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[31Jan2026 22:01:24.780] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@33632409, suppressing error
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	at com.scarasol.sona.manager.RotManager.containerOpen(RotManager.java:206) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at com.scarasol.sona.event.ManagerEventHandler.onOpen(ManagerEventHandler.java:189) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at com.scarasol.sona.event.__ManagerEventHandler_onOpen_Open.invoke(.dynamic) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_5893_(ServerPlayer.java:974) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.block.CraftingTableBlock.m_6227_(CraftingTableBlock.java:30) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:351) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1057) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[31Jan2026 22:01:44.452] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:01:53.792] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:01:56.395] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:02:00.820] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:02:08.848] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:02:14.586] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:02:36.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loranfayuaa: Teleported Loranfayuaa to -382.500000, 63.500000, -527.500000]
+[31Jan2026 22:02:54.156] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:02:56.556] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:03:04.593] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:03:05.633] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:03:07.484] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:03:08.540] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:03:13.083] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:03:15.786] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:03:18.492] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:03:22.789] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:03:24.634] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:03:27.809] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:armless_zombie but it was marked as removed already
+[31Jan2026 22:03:34.084] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_on_stelts but it was marked as removed already
+[31Jan2026 22:03:34.084] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_on_stelts but it was marked as removed already
+[31Jan2026 22:03:34.084] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_on_stelts but it was marked as removed already
+[31Jan2026 22:03:34.584] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:radioactive_zombie but it was marked as removed already
+[31Jan2026 22:03:34.585] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:radioactive_zombie but it was marked as removed already
+[31Jan2026 22:03:34.643] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:mutant_zombie but it was marked as removed already
+[31Jan2026 22:03:34.644] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:mutant_zombie but it was marked as removed already
+[31Jan2026 22:03:43.149] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_scientist but it was marked as removed already
+[31Jan2026 22:03:44.214] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_scientist but it was marked as removed already
+[31Jan2026 22:03:44.214] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_scientist but it was marked as removed already
+[31Jan2026 22:03:44.215] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_scientist but it was marked as removed already
+[31Jan2026 22:03:47.232] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_police but it was marked as removed already
+[31Jan2026 22:03:47.232] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_police but it was marked as removed already
+[31Jan2026 22:03:47.233] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_boxer but it was marked as removed already
+[31Jan2026 22:03:47.281] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:iron_door_zombie but it was marked as removed already
+[31Jan2026 22:03:47.282] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:iron_door_zombie but it was marked as removed already
+[31Jan2026 22:03:47.282] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:iron_door_zombie but it was marked as removed already
+[31Jan2026 22:03:47.282] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:iron_door_zombie but it was marked as removed already
+[31Jan2026 22:03:47.742] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:pylon_zombie but it was marked as removed already
+[31Jan2026 22:03:47.743] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:pylon_zombie but it was marked as removed already
+[31Jan2026 22:03:47.743] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_astronaut but it was marked as removed already
+[31Jan2026 22:03:47.743] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_astronaut but it was marked as removed already
+[31Jan2026 22:03:49.342] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:03:52.483] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:03:52.883] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:chained_zombie but it was marked as removed already
+[31Jan2026 22:03:52.883] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:chained_zombie but it was marked as removed already
+[31Jan2026 22:03:52.883] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:construction_worker_zombie but it was marked as removed already
+[31Jan2026 22:03:52.883] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombified_boar but it was marked as removed already
+[31Jan2026 22:03:52.931] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_painter but it was marked as removed already
+[31Jan2026 22:03:58.838] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:04:02.233] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:maggot_zombie but it was marked as removed already
+[31Jan2026 22:04:02.234] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:fire_fighter_zombie but it was marked as removed already
+[31Jan2026 22:04:02.782] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:04:05.283] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:04:09.032] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:mummy but it was marked as removed already
+[31Jan2026 22:04:09.032] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:armless_zombie but it was marked as removed already
+[31Jan2026 22:04:09.131] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:glitched_zombie but it was marked as removed already
+[31Jan2026 22:04:09.131] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:glitched_zombie but it was marked as removed already
+[31Jan2026 22:04:09.131] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:glitched_zombie but it was marked as removed already
+[31Jan2026 22:04:09.132] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:glitched_zombie but it was marked as removed already
+[31Jan2026 22:04:10.832] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_archer but it was marked as removed already
+[31Jan2026 22:04:10.832] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_archer but it was marked as removed already
+[31Jan2026 22:04:10.883] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_doctor but it was marked as removed already
+[31Jan2026 22:04:10.883] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_doctor but it was marked as removed already
+[31Jan2026 22:04:10.883] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_doctor but it was marked as removed already
+[31Jan2026 22:04:10.883] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_doctor but it was marked as removed already
+[31Jan2026 22:04:11.783] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie but it was marked as removed already
+[31Jan2026 22:04:11.783] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie but it was marked as removed already
+[31Jan2026 22:04:11.832] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_girl but it was marked as removed already
+[31Jan2026 22:04:11.832] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_girl but it was marked as removed already
+[31Jan2026 22:04:11.832] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_girl but it was marked as removed already
+[31Jan2026 22:04:12.781] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:firework_zombie but it was marked as removed already
+[31Jan2026 22:04:12.781] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombified_spider but it was marked as removed already
+[31Jan2026 22:04:19.482] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_spiter but it was marked as removed already
+[31Jan2026 22:04:19.482] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:infectious_zombie but it was marked as removed already
+[31Jan2026 22:04:19.482] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:infectious_zombie but it was marked as removed already
+[31Jan2026 22:04:19.482] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:infectious_zombie but it was marked as removed already
+[31Jan2026 22:04:19.532] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:barrel_zombie but it was marked as removed already
+[31Jan2026 22:04:19.532] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:iron_door_zombie but it was marked as removed already
+[31Jan2026 22:04:19.532] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:iron_door_zombie but it was marked as removed already
+[31Jan2026 22:04:20.782] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombified_wolf but it was marked as removed already
+[31Jan2026 22:04:20.782] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombified_wolf but it was marked as removed already
+[31Jan2026 22:04:22.279] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:maggot_zombie but it was marked as removed already
+[31Jan2026 22:04:28.189] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:04:31.244] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:04:39.945] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:04:44.538] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:04:49.987] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:04:55.836] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:05:00.032] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_warrior but it was marked as removed already
+[31Jan2026 22:05:00.032] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:headless_zombie but it was marked as removed already
+[31Jan2026 22:05:00.032] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:infectious_zombie but it was marked as removed already
+[31Jan2026 22:05:04.636] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:05:23.338] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:05:25.689] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:05:28.300] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:05:41.934] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:05:44.033] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:06:15.858] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:06:19.937] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:06:21.487] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:06:40.188] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:06:42.680] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:06:47.636] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:06:49.684] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:06:51.546] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:06:54.591] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:07:02.983] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:07:12.234] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:07:15.033] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:07:19.251] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:07:20.735] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:07:23.189] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:07:27.489] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:07:30.437] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:07:32.387] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:07:36.580] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:07:37.386] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:07:38.780] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:07:52.032] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:07:54.088] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:07:57.738] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:08:00.103] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:08:01.782] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:08:12.009] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:08:25.785] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:08:37.779] [Netty Epoll Server IO #6/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:09:00.784] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Loranfayuaa lost connection: Disconnected
+[31Jan2026 22:09:00.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loranfayuaa left the game
+[31Jan2026 22:09:00.785] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for f0de2357-de91-3a02-a302-14ecf1ecf24d
+[31Jan2026 22:18:46.263] [ForkJoinPool.commonPool-worker-16/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:Loranfayuaa'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.mdf8f3b9$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.mdf8f3b9$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:573) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1781) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?]
+[31Jan2026 22:18:46.307] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Loranfayuaa[/127.22.188.157:50131] logged in with entity id 159626 at (-423.6531704838789, 35.0, -509.5535956646859)
+[31Jan2026 22:18:46.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loranfayuaa joined the game
+[31Jan2026 22:18:46.331] [Server thread/INFO] [Jade/]: Syncing config to Loranfayuaa (f0de2357-de91-3a02-a302-14ecf1ecf24d)
+[31Jan2026 22:18:46.332] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for f0de2357-de91-3a02-a302-14ecf1ecf24d
+[31Jan2026 22:19:22.348] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:19:24.927] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:19:31.376] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:19:41.627] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:19:44.128] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:20:02.825] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:20:09.177] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:20:23.678] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:20:26.124] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:20:30.172] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:20:59.327] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:21:01.425] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:21:07.227] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:21:35.320] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:21:36.925] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:21:54.048] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:22:11.518] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:22:15.080] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:22:18.340] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:22:21.868] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:22:25.421] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:22:28.119] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:22:30.732] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:22:33.620] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:22:48.226] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:23:02.920] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:23:05.523] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:23:08.619] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:23:11.019] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:23:13.321] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:23:15.570] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:23:30.323] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:23:32.683] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:brain_zombie but it was marked as removed already
+[31Jan2026 22:23:32.733] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_girl but it was marked as removed already
+[31Jan2026 22:23:32.733] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_girl but it was marked as removed already
+[31Jan2026 22:23:32.733] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:big_zombie but it was marked as removed already
+[31Jan2026 22:23:33.834] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie but it was marked as removed already
+[31Jan2026 22:23:33.834] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie but it was marked as removed already
+[31Jan2026 22:23:34.987] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_girl but it was marked as removed already
+[31Jan2026 22:23:34.987] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_girl but it was marked as removed already
+[31Jan2026 22:23:36.535] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:pylon_zombie but it was marked as removed already
+[31Jan2026 22:23:36.595] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:pylon_zombie but it was marked as removed already
+[31Jan2026 22:23:41.279] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:23:43.131] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:23:43.582] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_warrior but it was marked as removed already
+[31Jan2026 22:23:43.582] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:fungal_zombie but it was marked as removed already
+[31Jan2026 22:23:43.582] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:fungal_zombie but it was marked as removed already
+[31Jan2026 22:23:43.582] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_girl but it was marked as removed already
+[31Jan2026 22:23:47.131] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_spiter but it was marked as removed already
+[31Jan2026 22:23:47.283] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_archer but it was marked as removed already
+[31Jan2026 22:23:49.133] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:bodyless_zombie but it was marked as removed already
+[31Jan2026 22:23:49.133] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:bodyless_zombie but it was marked as removed already
+[31Jan2026 22:23:49.133] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:pool_tube_zombie but it was marked as removed already
+[31Jan2026 22:23:49.133] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:pool_tube_zombie but it was marked as removed already
+[31Jan2026 22:23:53.782] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:infectious_zombie but it was marked as removed already
+[31Jan2026 22:23:53.782] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:infectious_zombie but it was marked as removed already
+[31Jan2026 22:23:53.782] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_prisoner but it was marked as removed already
+[31Jan2026 22:23:55.901] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_warrior but it was marked as removed already
+[31Jan2026 22:23:55.902] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_warrior but it was marked as removed already
+[31Jan2026 22:23:55.902] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_warrior but it was marked as removed already
+[31Jan2026 22:23:55.902] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:claw_zombie but it was marked as removed already
+[31Jan2026 22:23:55.966] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:football_player_zombie but it was marked as removed already
+[31Jan2026 22:23:56.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loranfayuaa has made the advancement [Mmm... Roasted Zombie]
+[31Jan2026 22:23:58.648] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie but it was marked as removed already
+[31Jan2026 22:23:59.082] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombified_bird but it was marked as removed already
+[31Jan2026 22:23:59.082] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombified_bird but it was marked as removed already
+[31Jan2026 22:24:04.182] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:psycho_zombie but it was marked as removed already
+[31Jan2026 22:24:04.182] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:infectious_zombie but it was marked as removed already
+[31Jan2026 22:24:04.232] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:headless_zombie but it was marked as removed already
+[31Jan2026 22:24:04.232] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:headless_zombie but it was marked as removed already
+[31Jan2026 22:24:04.233] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:big_zombie but it was marked as removed already
+[31Jan2026 22:24:04.233] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:big_zombie but it was marked as removed already
+[31Jan2026 22:24:05.382] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:acid_zombie but it was marked as removed already
+[31Jan2026 22:24:05.382] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:beekeeper_zombie but it was marked as removed already
+[31Jan2026 22:24:05.382] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_warrior but it was marked as removed already
+[31Jan2026 22:24:05.382] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_warrior but it was marked as removed already
+[31Jan2026 22:24:05.731] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_scientist but it was marked as removed already
+[31Jan2026 22:24:05.732] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_scientist but it was marked as removed already
+[31Jan2026 22:24:19.447] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:hazmat_zombie but it was marked as removed already
+[31Jan2026 22:24:19.447] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:hazmat_zombie but it was marked as removed already
+[31Jan2026 22:24:19.447] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:hazmat_zombie but it was marked as removed already
+[31Jan2026 22:24:19.506] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:chained_zombie but it was marked as removed already
+[31Jan2026 22:24:35.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loranfayuaa was slain by Crawling Zombie
+[31Jan2026 22:24:41.417] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:25:21.158] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:25:26.122] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:25:28.325] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:25:29.473] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:25:35.817] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:25:40.366] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:25:41.923] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:25:44.644] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:25:45.656] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:25:48.866] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:25:50.771] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:25:56.071] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:26:02.587] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:26:15.976] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:26:22.022] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:26:24.586] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:26:25.870] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:26:30.767] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:26:33.171] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:26:45.681] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:27:26.110] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:27:35.669] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:27:54.571] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:28:09.122] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:28:12.089] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:28:33.274] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:28:36.727] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:28:37.726] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:28:39.270] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:28:41.168] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:28:45.071] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:29:06.583] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:29:07.875] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:29:11.109] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:29:15.635] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:29:17.872] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:29:32.619] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:29:37.062] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:29:38.115] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:29:42.015] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:29:43.074] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:29:46.233] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:29:46.237] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon eventPlayerContainerEvent(Lnet/minecraftforge/event/entity/player/PlayerContainerEvent$Open;)V
+		2: NORMAL
+		3: ASM: class com.scarasol.sona.event.ManagerEventHandler onOpen(Lnet/minecraftforge/event/entity/player/PlayerContainerEvent$Open;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.manager.RotManager.containerOpen(RotManager.java:206)
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.event.ManagerEventHandler.onOpen(ManagerEventHandler.java:189)
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.event.__ManagerEventHandler_onOpen_Open.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_5893_(ServerPlayer.java:974)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.CraftingTableBlock.m_6227_(CraftingTableBlock.java:30)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:351)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1057)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[31Jan2026 22:29:46.238] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@566f2c0c, suppressing error
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	at com.scarasol.sona.manager.RotManager.containerOpen(RotManager.java:206) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at com.scarasol.sona.event.ManagerEventHandler.onOpen(ManagerEventHandler.java:189) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at com.scarasol.sona.event.__ManagerEventHandler_onOpen_Open.invoke(.dynamic) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_5893_(ServerPlayer.java:974) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.block.CraftingTableBlock.m_6227_(CraftingTableBlock.java:30) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:351) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1057) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[31Jan2026 22:30:02.112] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:30:02.113] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon eventPlayerContainerEvent(Lnet/minecraftforge/event/entity/player/PlayerContainerEvent$Open;)V
+		2: NORMAL
+		3: ASM: class com.scarasol.sona.event.ManagerEventHandler onOpen(Lnet/minecraftforge/event/entity/player/PlayerContainerEvent$Open;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.manager.RotManager.containerOpen(RotManager.java:206)
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.event.ManagerEventHandler.onOpen(ManagerEventHandler.java:189)
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.event.__ManagerEventHandler_onOpen_Open.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_5893_(ServerPlayer.java:974)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.CraftingTableBlock.m_6227_(CraftingTableBlock.java:30)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:351)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1057)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[31Jan2026 22:30:02.114] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@40fa4420, suppressing error
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	at com.scarasol.sona.manager.RotManager.containerOpen(RotManager.java:206) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at com.scarasol.sona.event.ManagerEventHandler.onOpen(ManagerEventHandler.java:189) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at com.scarasol.sona.event.__ManagerEventHandler_onOpen_Open.invoke(.dynamic) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_5893_(ServerPlayer.java:974) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.block.CraftingTableBlock.m_6227_(CraftingTableBlock.java:30) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:351) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1057) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[31Jan2026 22:30:24.616] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:30:27.064] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:30:27.066] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon eventPlayerContainerEvent(Lnet/minecraftforge/event/entity/player/PlayerContainerEvent$Open;)V
+		2: NORMAL
+		3: ASM: class com.scarasol.sona.event.ManagerEventHandler onOpen(Lnet/minecraftforge/event/entity/player/PlayerContainerEvent$Open;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.manager.RotManager.containerOpen(RotManager.java:206)
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.event.ManagerEventHandler.onOpen(ManagerEventHandler.java:189)
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.event.__ManagerEventHandler_onOpen_Open.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_5893_(ServerPlayer.java:974)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.CraftingTableBlock.m_6227_(CraftingTableBlock.java:30)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:351)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1057)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[31Jan2026 22:30:27.066] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@49f1c764, suppressing error
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	at com.scarasol.sona.manager.RotManager.containerOpen(RotManager.java:206) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at com.scarasol.sona.event.ManagerEventHandler.onOpen(ManagerEventHandler.java:189) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at com.scarasol.sona.event.__ManagerEventHandler_onOpen_Open.invoke(.dynamic) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_5893_(ServerPlayer.java:974) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.block.CraftingTableBlock.m_6227_(CraftingTableBlock.java:30) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:351) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1057) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[31Jan2026 22:31:01.167] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:31:02.767] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:31:05.780] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:31:08.814] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:31:22.823] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:31:33.671] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:31:38.090] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:32:20.516] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:32:20.518] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon eventPlayerContainerEvent(Lnet/minecraftforge/event/entity/player/PlayerContainerEvent$Open;)V
+		2: NORMAL
+		3: ASM: class com.scarasol.sona.event.ManagerEventHandler onOpen(Lnet/minecraftforge/event/entity/player/PlayerContainerEvent$Open;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.manager.RotManager.containerOpen(RotManager.java:206)
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.event.ManagerEventHandler.onOpen(ManagerEventHandler.java:189)
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.event.__ManagerEventHandler_onOpen_Open.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_5893_(ServerPlayer.java:974)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.CraftingTableBlock.m_6227_(CraftingTableBlock.java:30)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:351)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1057)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[31Jan2026 22:32:20.519] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@4726df42, suppressing error
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	at com.scarasol.sona.manager.RotManager.containerOpen(RotManager.java:206) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at com.scarasol.sona.event.ManagerEventHandler.onOpen(ManagerEventHandler.java:189) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at com.scarasol.sona.event.__ManagerEventHandler_onOpen_Open.invoke(.dynamic) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_5893_(ServerPlayer.java:974) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.block.CraftingTableBlock.m_6227_(CraftingTableBlock.java:30) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:351) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1057) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[31Jan2026 22:32:41.821] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:32:42.669] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:32:47.326] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:32:49.314] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:32:55.871] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:32:58.827] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:33:07.781] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:33:15.522] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:33:29.230] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:33:49.862] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:33:56.637] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:34:08.317] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:34:08.318] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon eventPlayerContainerEvent(Lnet/minecraftforge/event/entity/player/PlayerContainerEvent$Open;)V
+		2: NORMAL
+		3: ASM: class com.scarasol.sona.event.ManagerEventHandler onOpen(Lnet/minecraftforge/event/entity/player/PlayerContainerEvent$Open;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.manager.RotManager.containerOpen(RotManager.java:206)
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.event.ManagerEventHandler.onOpen(ManagerEventHandler.java:189)
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.event.__ManagerEventHandler_onOpen_Open.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_5893_(ServerPlayer.java:974)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.CraftingTableBlock.m_6227_(CraftingTableBlock.java:30)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:351)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1057)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[31Jan2026 22:34:08.319] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@320270a1, suppressing error
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	at com.scarasol.sona.manager.RotManager.containerOpen(RotManager.java:206) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at com.scarasol.sona.event.ManagerEventHandler.onOpen(ManagerEventHandler.java:189) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at com.scarasol.sona.event.__ManagerEventHandler_onOpen_Open.invoke(.dynamic) ~[Sona-1.20.1-forge-1.4.2.jar%23180!/:1.4.2]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_5893_(ServerPlayer.java:974) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.block.CraftingTableBlock.m_6227_(CraftingTableBlock.java:30) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:351) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1057) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[31Jan2026 22:35:08.281] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: A single server tick took 60.00 seconds (should be max 0.05)
+[31Jan2026 22:36:00.797] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+[31Jan2026 22:34:34.367] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:36:00.796] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 112516ms or 2250 ticks behind
+[31Jan2026 22:36:00.798] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:36:00.799] [Netty Epoll Server IO #0/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[31Jan2026 22:36:01.184] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Loranfayuaa lost connection: Disconnected
+[31Jan2026 22:36:01.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loranfayuaa left the game
+[31Jan2026 22:36:01.185] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for f0de2357-de91-3a02-a302-14ecf1ecf24d
+[31Jan2026 22:36:01.343] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID d92b0eb2-2fc4-4f23-b38b-f348304e551c
+[31Jan2026 22:36:01.387] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 99d35ff1-4998-4160-82e6-2e0983e2ad2a
+[31Jan2026 22:36:01.395] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/]: This crash report has been saved to: /workspaces/test-aja/./crash-reports/crash-2026-01-31_22.36.01-server.txt
+[31Jan2026 22:36:01.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[31Jan2026 22:36:01.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[31Jan2026 22:36:01.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[31Jan2026 22:36:01.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[31Jan2026 22:36:01.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[31Jan2026 22:36:01.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/lostcities:lostcity
+[31Jan2026 22:36:01.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[31Jan2026 22:36:01.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[31Jan2026 22:36:01.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[31Jan2026 22:36:01.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lostcity): All chunks are saved
+[31Jan2026 22:36:01.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[31Jan2026 22:36:01.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[31Jan2026 22:36:02.045] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopping IO worker...
+[31Jan2026 22:36:02.047] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopped IO worker!
+[31Jan2026 22:36:02.052] [Server thread/INFO] [net.petemc.undeadnights.UndeadNights/]: Loading undeadnights server config
+[31Jan2026 22:36:02.068] [Server thread/INFO] [net.petemc.mutantszombies.MutantsZombies/]: Loading mutantszombies server config

@@ -2513,13 +2513,13 @@
     },
     "done": true
   },
-  "infectious:gold_rush": {
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
-      "gold_rush": "2026-01-31 00:43:32 +0000"
+      "has_iron_block": "2026-01-31 00:24:38 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+  "minecraft:recipes/decorations/anvil": {
     "criteria": {
       "has_iron_block": "2026-01-31 00:24:38 +0000"
     },
@@ -2531,9 +2531,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/anvil": {
+  "infectious:gold_rush": {
     "criteria": {
-      "has_iron_block": "2026-01-31 00:24:38 +0000"
+      "gold_rush": "2026-01-31 00:43:32 +0000"
+    },
+    "done": true
+  },
+  "infectious:the_city_needs_me": {
+    "criteria": {
+      "the_city_needs_me": "2026-01-31 09:55:51 +0000"
+    },
+    "done": true
+  },
+  "infectious:hogzilla": {
+    "criteria": {
+      "hogzilla": "2026-01-31 09:56:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2026-01-31 10:22:46 +0000"
+    },
+    "done": true
+  },
+  "infectious:im_batman": {
+    "criteria": {
+      "im_batman": "2026-01-31 09:55:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2026-01-31 10:22:46 +0000"
+    },
+    "done": true
+  },
+  "infectious:how_many_weeks": {
+    "criteria": {
+      "how_many_weeks": "2026-01-31 10:05:13 +0000"
     },
     "done": true
   },

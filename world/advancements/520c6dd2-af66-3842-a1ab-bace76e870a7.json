@@ -481,6 +481,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2026-01-31 19:08:33 +0000"
+    },
+    "done": true
+  },
   "rottencreatures:recipes/redstone/tnt_barrel": {
     "criteria": {
       "has_gunpowder": "2026-01-31 17:16:45 +0000"
@@ -607,6 +613,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2026-01-31 19:11:26 +0000"
+    },
+    "done": true
+  },
   "infectious:step_into_trouble": {
     "criteria": {
       "step_into_trouble": "2026-01-31 18:07:03 +0000"
@@ -661,6 +673,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-01-31 19:08:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_planks": "2026-01-31 17:18:33 +0000"
@@ -670,6 +688,12 @@
   "minecraft:recipes/redstone/oak_trapdoor": {
     "criteria": {
       "has_planks": "2026-01-31 17:18:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2026-01-31 19:11:26 +0000"
     },
     "done": true
   },
@@ -751,6 +775,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2026-01-31 19:06:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
       "has_diamond": "2026-01-31 18:07:43 +0000"
@@ -772,6 +802,12 @@
   "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2026-01-31 17:14:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2026-01-31 19:11:26 +0000"
     },
     "done": true
   },
@@ -838,6 +874,12 @@
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_gold_ingot": "2026-01-31 18:07:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2026-01-31 19:11:26 +0000"
     },
     "done": true
   },
@@ -919,6 +961,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2026-01-31 19:08:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_sandstone": {
     "criteria": {
       "has_sandstone_slab": "2026-01-31 18:26:42 +0000"
@@ -928,6 +976,12 @@
   "minecraft:recipes/combat/arrow": {
     "criteria": {
       "has_feather": "2026-01-31 17:17:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2026-01-31 19:11:26 +0000"
     },
     "done": true
   },
@@ -1009,6 +1063,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2026-01-31 19:11:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-01-31 19:08:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2026-01-31 17:15:40 +0000"
@@ -1018,6 +1084,12 @@
   "minecraft:recipes/tools/fishing_rod": {
     "criteria": {
       "has_string": "2026-01-31 17:15:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2026-01-31 19:12:20 +0000"
     },
     "done": true
   },
@@ -1039,9 +1111,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2026-01-31 19:08:33 +0000"
+    },
+    "done": true
+  },
   "infectious:jack_o_dead": {
     "criteria": {
       "jack_o_dead": "2026-01-31 17:30:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-01-31 19:08:33 +0000"
     },
     "done": true
   },
@@ -1120,6 +1204,12 @@
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2026-01-31 17:15:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2026-01-31 19:11:26 +0000"
     },
     "done": true
   },
@@ -1306,6 +1396,12 @@
     },
     "done": true
   },
+  "infectious:fire_in_the_hall": {
+    "criteria": {
+      "fire_in_the_hall": "2026-01-31 18:59:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
       "has_sandstone": "2026-01-31 17:14:20 +0000"
@@ -1348,9 +1444,16 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2026-01-31 19:11:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "baked_potato": "2026-01-31 17:25:46 +0000",
+      "apple": "2026-01-31 19:12:01 +0000",
       "beetroot": "2026-01-31 17:24:30 +0000"
     },
     "done": false
@@ -1397,6 +1500,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2026-01-31 19:08:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
       "has_diamond": "2026-01-31 18:07:43 +0000"
@@ -1415,9 +1524,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2026-01-31 19:11:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2026-01-31 19:08:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2026-01-31 18:07:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2026-01-31 19:11:26 +0000"
     },
     "done": true
   },
@@ -1442,6 +1569,18 @@
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2026-01-31 18:07:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2026-01-31 19:08:33 +0000"
+    },
+    "done": true
+  },
+  "infectious:bucket_list": {
+    "criteria": {
+      "bucket_list": "2026-01-31 18:57:16 +0000"
     },
     "done": true
   },
@@ -1526,6 +1665,12 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2026-01-31 18:07:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2026-01-31 19:06:59 +0000"
     },
     "done": true
   },

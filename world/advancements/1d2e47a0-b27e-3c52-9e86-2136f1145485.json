@@ -20,6 +20,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:badlands": "2026-01-31 02:14:56 +0000",
+      "minecraft:river": "2026-02-01 13:26:46 +0000",
       "minecraft:desert": "2026-01-31 02:08:23 +0000"
     },
     "done": false
@@ -369,6 +370,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2026-01-31 02:45:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/smoker": {
     "criteria": {
       "has_furnace": "2026-01-31 02:56:41 +0000"
@@ -381,9 +388,15 @@
     },
     "done": true
   },
-  "minecraft:adventure/sleep_in_bed": {
+  "superbwarfare:recipes/misc/armor_plate": {
     "criteria": {
-      "slept_in_bed": "2026-01-31 02:45:36 +0000"
+      "has_string": "2026-02-01 13:21:05 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:main/root": {
+    "criteria": {
+      "0": "2026-02-01 13:21:05 +0000"
     },
     "done": true
   },

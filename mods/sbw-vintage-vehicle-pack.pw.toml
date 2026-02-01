@@ -1,0 +1,17 @@
+filename = 'vvp-alpha-1.20.1-0.2.0.jar'
+name = '[SBW] Vintage Vehicle Pack'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'vvp-alpha-1.20.1-0.2.0'
+
+[download]
+hash = '680be16ea5ab06180fa65703a484033999ededcd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7374412
+project-id = 1280871

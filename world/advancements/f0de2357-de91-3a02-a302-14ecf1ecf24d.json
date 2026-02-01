@@ -3434,18 +3434,6 @@
     },
     "done": true
   },
-  "superbwarfare:recipes/misc/propeller": {
-    "criteria": {
-      "has_oak_planks": "2026-02-01 04:02:15 +0000"
-    },
-    "done": true
-  },
-  "superbwarfare:main/root": {
-    "criteria": {
-      "0": "2026-02-01 04:02:15 +0000"
-    },
-    "done": true
-  },
   "infectious:brains_over_bullets": {
     "criteria": {
       "brains_over_bullets": "2026-02-01 04:13:39 +0000"
@@ -3464,21 +3452,9 @@
     },
     "done": true
   },
-  "superbwarfare:recipes/misc/battery": {
+  "infectious:the_last_of_us": {
     "criteria": {
-      "has_redstone": "2026-02-01 04:14:34 +0000"
-    },
-    "done": true
-  },
-  "superbwarfare:recipes/misc/laser_unit": {
-    "criteria": {
-      "has_redstone": "2026-02-01 04:14:34 +0000"
-    },
-    "done": true
-  },
-  "superbwarfare:main/physics_excalibur": {
-    "criteria": {
-      "0": "2026-02-01 04:24:30 +0000"
+      "the_last_of_us": "2026-02-01 15:01:02 +0000"
     },
     "done": true
   },

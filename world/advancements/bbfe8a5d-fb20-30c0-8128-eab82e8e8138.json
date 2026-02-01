@@ -12,6 +12,7 @@
       "minecraft:beach": "2026-01-27 15:37:50 +0000",
       "minecraft:sparse_jungle": "2026-01-27 15:37:34 +0000",
       "minecraft:river": "2026-01-26 23:16:00 +0000",
+      "minecraft:stony_shore": "2026-02-01 04:37:19 +0000",
       "minecraft:desert": "2026-01-26 22:58:56 +0000",
       "minecraft:warm_ocean": "2026-01-27 15:36:36 +0000",
       "minecraft:plains": "2026-01-27 15:37:22 +0000"
@@ -1356,6 +1357,102 @@
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2026-02-01 03:30:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-02-01 04:39:31 +0000"
+    },
+    "done": true
+  },
+  "infectious:sign_the_contract_big_boy": {
+    "criteria": {
+      "sign_the_contract_big_boy": "2026-02-01 04:09:08 +0000"
+    },
+    "done": true
+  },
+  "infectious:one_bear_please": {
+    "criteria": {
+      "one_bear_please": "2026-02-01 04:14:37 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:main/physics_excalibur": {
+    "criteria": {
+      "0": "2026-02-01 04:00:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-02-01 04:39:31 +0000"
+    },
+    "done": true
+  },
+  "infectious:hogzilla": {
+    "criteria": {
+      "hogzilla": "2026-02-01 04:32:24 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/combat/javelin_missile_convert": {
+    "criteria": {
+      "has_medium_anti_ground_missile": "2026-02-01 04:11:41 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:main/super_container": {
+    "criteria": {
+      "0": "2026-02-01 04:00:47 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/combat/ptkm_1r": {
+    "criteria": {
+      "has_ap_5_inches": "2026-02-01 04:18:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2026-02-01 04:39:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-02-01 04:39:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-02-01 04:39:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-02-01 04:39:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-02-01 04:39:31 +0000"
+    },
+    "done": true
+  },
+  "infectious:ba_da_ba_ba_ba": {
+    "criteria": {
+      "ba_da_ba_ba_ba": "2026-02-01 04:30:48 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:main/root": {
+    "criteria": {
+      "0": "2026-02-01 03:59:00 +0000"
     },
     "done": true
   },

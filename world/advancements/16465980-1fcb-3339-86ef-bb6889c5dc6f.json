@@ -13,12 +13,14 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:eroded_badlands": "2026-02-01 04:35:28 +0000",
       "minecraft:wooded_badlands": "2026-02-01 01:02:14 +0000",
       "minecraft:badlands": "2026-01-31 02:24:20 +0000",
       "minecraft:beach": "2026-02-01 02:59:56 +0000",
       "minecraft:sparse_jungle": "2026-02-01 02:07:30 +0000",
       "minecraft:river": "2026-01-31 10:13:18 +0000",
       "minecraft:lukewarm_ocean": "2026-02-01 03:05:45 +0000",
+      "minecraft:stony_shore": "2026-02-01 04:37:13 +0000",
       "minecraft:forest": "2026-02-01 02:07:15 +0000",
       "minecraft:desert": "2026-01-31 02:21:00 +0000",
       "minecraft:windswept_savanna": "2026-02-01 02:58:51 +0000",
@@ -119,6 +121,7 @@
       "apple": "2026-02-01 00:03:32 +0000",
       "potato": "2026-02-01 00:01:49 +0000",
       "bread": "2026-01-31 23:55:44 +0000",
+      "golden_apple": "2026-02-01 04:11:12 +0000",
       "golden_carrot": "2026-02-01 01:36:44 +0000",
       "carrot": "2026-01-31 10:50:30 +0000"
     },
@@ -468,6 +471,7 @@
       "minecraft:skeleton": "2026-02-01 01:59:02 +0000",
       "minecraft:spider": "2026-01-31 23:53:35 +0000",
       "minecraft:creeper": "2026-02-01 03:46:35 +0000",
+      "minecraft:slime": "2026-02-01 04:16:34 +0000",
       "minecraft:husk": "2026-01-31 02:46:23 +0000",
       "minecraft:zombie": "2026-01-31 10:20:43 +0000",
       "minecraft:drowned": "2026-02-01 03:42:24 +0000"
@@ -2430,21 +2434,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
-    "criteria": {
-      "has_amethyst_shard": "2026-02-01 03:44:26 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2026-02-01 03:42:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/tinted_glass": {
-    "criteria": {
-      "has_amethyst_shard": "2026-02-01 03:44:26 +0000"
     },
     "done": true
   },
@@ -2472,27 +2464,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/spyglass": {
-    "criteria": {
-      "has_amethyst_shard": "2026-02-01 03:44:26 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2026-02-01 03:42:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/amethyst_block": {
-    "criteria": {
-      "has_amethyst_shard": "2026-02-01 03:44:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bone_meal": {
-    "criteria": {
-      "has_bone": "2026-02-01 03:47:45 +0000"
     },
     "done": true
   },
@@ -2514,15 +2488,231 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-02-01 03:42:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2026-02-01 03:44:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2026-02-01 03:44:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2026-02-01 03:44:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2026-02-01 03:44:26 +0000"
+    },
+    "done": true
+  },
   "infectious:dried_out": {
     "criteria": {
       "dried_out": "2026-02-01 03:46:41 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+  "minecraft:recipes/misc/bone_meal": {
     "criteria": {
-      "has_andesite": "2026-02-01 03:42:45 +0000"
+      "has_bone": "2026-02-01 03:47:45 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/high_energy_explosives": {
+    "criteria": {
+      "has_gunpowder": "2026-02-01 04:02:02 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/combat/hammer": {
+    "criteria": {
+      "has_iron_block": "2026-02-01 04:48:49 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/propeller": {
+    "criteria": {
+      "has_oak_planks": "2026-02-01 04:02:02 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/iron_spring": {
+    "criteria": {
+      "has_iron_ingot": "2026-02-01 04:02:02 +0000"
+    },
+    "done": true
+  },
+  "infectious:screams_of_the_undead": {
+    "criteria": {
+      "screams_of_the_undead": "2026-02-01 04:07:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-02-01 04:09:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2026-02-01 04:33:51 +0000"
+    },
+    "done": true
+  },
+  "infectious:bomb_has_been_defused": {
+    "criteria": {
+      "bomb_has_been_defused": "2026-02-01 04:12:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2026-02-01 04:33:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2026-02-01 04:33:51 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/iron_trigger": {
+    "criteria": {
+      "has_iron_ingot": "2026-02-01 04:02:02 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/battery": {
+    "criteria": {
+      "has_redstone": "2026-02-01 04:49:04 +0000"
+    },
+    "done": true
+  },
+  "infectious:roasting_the_dead": {
+    "criteria": {
+      "roasting_the_dead": "2026-02-01 04:49:31 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/mortar_barrel": {
+    "criteria": {
+      "has_iron_ingot": "2026-02-01 04:02:02 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/mortar_bipod": {
+    "criteria": {
+      "has_iron_bars": "2026-02-01 04:24:15 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/motor": {
+    "criteria": {
+      "has_copper_ingot": "2026-02-01 04:15:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
+    "criteria": {
+      "has_vex_armor_trim_smithing_template": "2026-02-01 04:09:54 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/laser_unit": {
+    "criteria": {
+      "has_redstone": "2026-02-01 04:49:04 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/combat/ammo_box": {
+    "criteria": {
+      "has_iron_ingot": "2026-02-01 04:02:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2026-02-01 04:48:49 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/iron_barrel": {
+    "criteria": {
+      "has_iron_ingot": "2026-02-01 04:02:02 +0000"
+    },
+    "done": true
+  },
+  "infectious:back_in_my_days": {
+    "criteria": {
+      "back_in_my_days": "2026-02-01 04:11:55 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/gs_head": {
+    "criteria": {
+      "has_gunpowder": "2026-02-01 04:02:02 +0000"
+    },
+    "done": true
+  },
+  "infectious:fire_in_the_hall": {
+    "criteria": {
+      "fire_in_the_hall": "2026-02-01 04:19:01 +0000"
+    },
+    "done": true
+  },
+  "infectious:extra_ribs_please": {
+    "criteria": {
+      "extra_ribs_please": "2026-02-01 04:22:47 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:main/root": {
+    "criteria": {
+      "0": "2026-02-01 04:02:02 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/combat/medical_kit": {
+    "criteria": {
+      "has_golden_apple": "2026-02-01 04:02:02 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/mortar_base_plate": {
+    "criteria": {
+      "has_iron_ingot": "2026-02-01 04:02:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2026-02-01 04:48:49 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/iron_action": {
+    "criteria": {
+      "has_iron_ingot": "2026-02-01 04:02:02 +0000"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/decorations/barbed_wire": {
+    "criteria": {
+      "has_iron_bars": "2026-02-01 04:24:15 +0000"
     },
     "done": true
   },

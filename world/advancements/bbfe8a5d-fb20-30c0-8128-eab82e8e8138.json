@@ -19,9 +19,22 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:birch_forest": "2026-02-04 22:51:12 +0000",
       "minecraft:forest": "2026-02-04 02:53:50 +0000"
     },
     "done": false
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2026-02-04 22:49:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-02-04 22:52:05 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

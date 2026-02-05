@@ -2268,3 +2268,216 @@ com.google.gson.JsonParseException: there is no corresponding data file
 [05Feb2026 00:17:50.951] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following party system as primary: default
 [05Feb2026 00:17:50.951] [Server thread/INFO] [dynamiclights/]: [Dynamic Lights] Sending global config to world ...
 [05Feb2026 00:17:50.957] [Server thread/INFO] [mixin/]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.status.ServerStatus
+[05Feb2026 00:20:07.783] [Netty Epoll Server IO #1/INFO] [mixin/]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatCommandPacket
+[05Feb2026 00:20:07.787] [Netty Epoll Server IO #1/INFO] [mixin/]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatPacket
+[05Feb2026 00:20:07.789] [Netty Epoll Server IO #1/INFO] [mixin/]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatSessionUpdatePacket
+[05Feb2026 00:20:10.144] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [butchery:butchery] rejected their client side version number
+[05Feb2026 00:20:10.145] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[05Feb2026 00:20:10.165] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1bdc4eca[id=<null>,name=Brodhan_id,properties={},legacy=false] (/127.189.228.112:58179) lost connection: Connection closed - mismatched mod channel list
+[05Feb2026 00:22:32.914] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [ponder:main,effortlessbuilding:main] rejected their client side version number
+[05Feb2026 00:22:32.915] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[05Feb2026 00:22:32.957] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@b52fcfc[id=<null>,name=Loranfayuaa,properties={},legacy=false] (/127.22.188.157:33805) lost connection: Connection closed - mismatched mod channel list
+[05Feb2026 00:26:58.184] [ForkJoinPool.commonPool-worker-1/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:Loranfayuaa'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.mdb08cdc$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.mdb08cdc$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:573) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1781) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?]
+[05Feb2026 00:26:58.209] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[05Feb2026 00:26:58.253] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Loranfayuaa[/127.22.188.157:59587] logged in with entity id 102 at (24.83070549085298, 62.0, 12.656124010707638)
+[05Feb2026 00:26:58.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loranfayuaa joined the game
+[05Feb2026 00:26:58.572] [Server thread/INFO] [Jade/]: Syncing config to Loranfayuaa (f0de2357-de91-3a02-a302-14ecf1ecf24d)
+[05Feb2026 00:26:58.594] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for f0de2357-de91-3a02-a302-14ecf1ecf24d
+[05Feb2026 00:27:40.461] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_police but it was marked as removed already
+[05Feb2026 00:27:40.461] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_police but it was marked as removed already
+[05Feb2026 00:27:42.563] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:franklin_zombie but it was marked as removed already
+[05Feb2026 00:27:43.509] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:infectious_zombie but it was marked as removed already
+[05Feb2026 00:27:43.560] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:fat_zombie but it was marked as removed already
+[05Feb2026 00:27:43.610] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombified_wolf but it was marked as removed already
+[05Feb2026 00:27:43.659] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:old_zombie but it was marked as removed already
+[05Feb2026 00:27:43.659] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:old_zombie but it was marked as removed already
+[05Feb2026 00:27:43.708] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:brain_zombie but it was marked as removed already
+[05Feb2026 00:27:43.709] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:brain_zombie but it was marked as removed already
+[05Feb2026 00:27:47.059] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:infectious_zombie but it was marked as removed already
+[05Feb2026 00:27:47.060] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:infectious_zombie but it was marked as removed already
+[05Feb2026 00:27:48.059] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie but it was marked as removed already
+[05Feb2026 00:27:48.060] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie but it was marked as removed already
+[05Feb2026 00:27:48.060] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie but it was marked as removed already
+[05Feb2026 00:27:48.109] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie but it was marked as removed already
+[05Feb2026 00:27:48.159] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:pool_tube_zombie but it was marked as removed already
+[05Feb2026 00:27:51.210] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_lumberjack but it was marked as removed already
+[05Feb2026 00:27:51.259] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombified_spider but it was marked as removed already
+[05Feb2026 00:27:51.260] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombified_spider but it was marked as removed already
+[05Feb2026 00:27:51.309] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:old_zombie but it was marked as removed already
+[05Feb2026 00:27:51.310] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:old_zombie but it was marked as removed already
+[05Feb2026 00:27:51.310] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_astronaut but it was marked as removed already
+[05Feb2026 00:27:51.311] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:iron_door_zombie but it was marked as removed already
+[05Feb2026 00:27:54.958] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:hazmat_zombie but it was marked as removed already
+[05Feb2026 00:27:54.959] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:armless_zombie but it was marked as removed already
+[05Feb2026 00:27:54.959] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:armless_zombie but it was marked as removed already
+[05Feb2026 00:27:57.909] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:pumpkin_zombie but it was marked as removed already
+[05Feb2026 00:28:41.207] [Netty Epoll Server IO #7/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[05Feb2026 00:28:41.911] [Netty Epoll Server IO #7/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[05Feb2026 00:28:42.673] [Netty Epoll Server IO #7/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[05Feb2026 00:28:43.091] [Netty Epoll Server IO #7/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[05Feb2026 00:28:43.488] [Netty Epoll Server IO #7/ERROR] [dev.architectury.networking.forge.NetworkManagerImpl/]: Unknown message ID: kubejs:first_click
+[05Feb2026 00:28:52.912] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Loranfayuaa lost connection: Disconnected
+[05Feb2026 00:28:52.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loranfayuaa left the game
+[05Feb2026 00:28:52.913] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for f0de2357-de91-3a02-a302-14ecf1ecf24d
+[05Feb2026 00:34:53.277] [ForkJoinPool.commonPool-worker-3/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:Loranfayuaa'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.mdb08cdc$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.mdb08cdc$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:573) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1781) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?]
+[05Feb2026 00:34:53.320] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Loranfayuaa[/127.22.188.157:54731] logged in with entity id 2202 at (29.171444734065737, 69.0, -0.9201029881773372)
+[05Feb2026 00:34:53.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loranfayuaa joined the game
+[05Feb2026 00:34:53.409] [Server thread/INFO] [Jade/]: Syncing config to Loranfayuaa (f0de2357-de91-3a02-a302-14ecf1ecf24d)
+[05Feb2026 00:34:53.410] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for f0de2357-de91-3a02-a302-14ecf1ecf24d
+[05Feb2026 00:35:26.261] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombified_spider but it was marked as removed already
+[05Feb2026 00:35:26.262] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombified_spider but it was marked as removed already
+[05Feb2026 00:35:26.309] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_doctor but it was marked as removed already
+[05Feb2026 00:35:28.610] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie but it was marked as removed already
+[05Feb2026 00:35:28.909] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:blind_zombie but it was marked as removed already
+[05Feb2026 00:35:28.909] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:blind_zombie but it was marked as removed already
+[05Feb2026 00:35:28.960] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_climber but it was marked as removed already
+[05Feb2026 00:35:30.910] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:infectious_zombie but it was marked as removed already
+[05Feb2026 00:35:35.409] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:armless_zombie but it was marked as removed already
+[05Feb2026 00:35:35.461] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:crawling_zombie but it was marked as removed already
+[05Feb2026 00:35:41.112] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:iron_door_zombie but it was marked as removed already
+[05Feb2026 00:35:41.565] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Loranfayuaa lost connection: Disconnected
+[05Feb2026 00:35:41.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loranfayuaa left the game
+[05Feb2026 00:35:41.565] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for f0de2357-de91-3a02-a302-14ecf1ecf24d
+[05Feb2026 00:40:34.216] [ForkJoinPool.commonPool-worker-5/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:Loranfayuaa'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.mdb08cdc$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.mdb08cdc$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:573) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1781) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?]
+[05Feb2026 00:40:34.267] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Loranfayuaa[/127.22.188.157:43863] logged in with entity id 3762 at (29.171444734065737, 69.0, -0.9201029881773372)
+[05Feb2026 00:40:34.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loranfayuaa joined the game
+[05Feb2026 00:40:34.341] [Server thread/INFO] [Jade/]: Syncing config to Loranfayuaa (f0de2357-de91-3a02-a302-14ecf1ecf24d)
+[05Feb2026 00:40:34.342] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for f0de2357-de91-3a02-a302-14ecf1ecf24d
+[05Feb2026 00:41:25.665] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@10af43b1[id=<null>,name=Brodhan_id,properties={},legacy=false] (/127.189.228.112:49927) lost connection: Disconnected
+[05Feb2026 00:42:34.213] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Loranfayuaa lost connection: Disconnected
+[05Feb2026 00:42:34.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loranfayuaa left the game
+[05Feb2026 00:42:34.214] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for f0de2357-de91-3a02-a302-14ecf1ecf24d
+[05Feb2026 00:46:36.170] [ForkJoinPool.commonPool-worker-7/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent org/mineskin/request/AbstractRequestBuilder for class org/mineskin/request/UrlRequestBuilderImpl in classloader jdk.internal.loader.ClassLoaders$AppClassLoader@28a418fc on thread Thread[#124,ForkJoinPool.commonPool-worker-7,5,InnocuousForkJoinWorkerThreadGroup]
+[05Feb2026 00:46:36.170] [ForkJoinPool.commonPool-worker-7/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: org.mineskin.request.AbstractRequestBuilder
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:97) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:48) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.5.jar%2352!/:6.0.5+6.0.5+master.eb8e549b]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at org.mineskin.request.GenerateRequest.url(GenerateRequest.java:39) ~[?:?]
+	at org.mineskin.request.GenerateRequest.url(GenerateRequest.java:43) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MineskinSkinProvider.loadSkin(MineskinSkinProvider.java:110) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MineskinSkinProvider$1.load(MineskinSkinProvider.java:71) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MineskinSkinProvider$1.load(MineskinSkinProvider.java:68) ~[?:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3533) ~[guava-31.1-jre.jar%2374!/:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2282) ~[guava-31.1-jre.jar%2374!/:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2159) ~[guava-31.1-jre.jar%2374!/:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2049) ~[guava-31.1-jre.jar%2374!/:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3966) ~[guava-31.1-jre.jar%2374!/:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3989) ~[guava-31.1-jre.jar%2374!/:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4950) ~[guava-31.1-jre.jar%2374!/:?]
+	at net.lionarius.skinrestorer.skin.provider.MineskinSkinProvider.fetchSkin(MineskinSkinProvider.java:91) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.mdb08cdc$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.mdb08cdc$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:555) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1781) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?]
+[05Feb2026 00:46:39.719] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Brodhan_id[/127.189.228.112:37855] logged in with entity id 5332 at (417.79087318318614, 69.74566038040678, -17.28736740941514)
+[05Feb2026 00:46:39.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Brodhan_id joined the game
+[05Feb2026 00:46:39.741] [Server thread/INFO] [Jade/]: Syncing config to Brodhan_id (bbfe8a5d-fb20-30c0-8128-eab82e8e8138)
+[05Feb2026 00:46:39.742] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for bbfe8a5d-fb20-30c0-8128-eab82e8e8138
+[05Feb2026 00:47:15.513] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_girl but it was marked as removed already
+[05Feb2026 00:47:15.513] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:hazmat_zombie but it was marked as removed already
+[05Feb2026 00:47:15.563] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:psycho_zombie but it was marked as removed already
+[05Feb2026 00:47:15.564] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:psycho_zombie but it was marked as removed already
+[05Feb2026 00:47:15.564] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:psycho_zombie but it was marked as removed already
+[05Feb2026 00:47:15.564] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:psycho_zombie but it was marked as removed already
+[05Feb2026 00:47:28.211] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:hazmat_zombie but it was marked as removed already
+[05Feb2026 00:47:28.212] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:hazmat_zombie but it was marked as removed already
+[05Feb2026 00:47:28.213] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:hazmat_zombie but it was marked as removed already
+[05Feb2026 00:47:28.213] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombified_wolf but it was marked as removed already
+[05Feb2026 00:47:31.811] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:pylon_zombie but it was marked as removed already
+[05Feb2026 00:47:53.860] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:armless_zombie but it was marked as removed already
+[05Feb2026 00:47:54.014] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_lumberjack but it was marked as removed already
+[05Feb2026 00:47:54.061] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombie_girl but it was marked as removed already
+[05Feb2026 00:47:58.359] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombified_wolf but it was marked as removed already
+[05Feb2026 00:47:58.360] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombified_wolf but it was marked as removed already
+[05Feb2026 00:47:58.360] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombified_wolf but it was marked as removed already
+[05Feb2026 00:47:58.360] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity infectious:zombified_wolf but it was marked as removed already
+[05Feb2026 00:54:56.676] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Brodhan_id lost connection: Disconnected
+[05Feb2026 00:54:56.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Brodhan_id left the game
+[05Feb2026 00:54:56.677] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for bbfe8a5d-fb20-30c0-8128-eab82e8e8138
+[05Feb2026 00:55:04.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[05Feb2026 00:55:04.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[05Feb2026 00:55:04.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[05Feb2026 00:55:04.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[05Feb2026 00:55:05.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05Feb2026 00:55:05.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/lostcities:lostcity
+[05Feb2026 00:55:05.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[05Feb2026 00:55:05.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[05Feb2026 00:55:05.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05Feb2026 00:55:05.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lostcity): All chunks are saved
+[05Feb2026 00:55:05.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05Feb2026 00:55:05.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05Feb2026 00:55:05.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05Feb2026 00:55:05.490] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopping IO worker...
+[05Feb2026 00:55:05.491] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopped IO worker!
+[05Feb2026 00:55:05.494] [Server thread/INFO] [net.petemc.undeadnights.UndeadNights/]: Loading undeadnights server config
+[05Feb2026 00:55:05.502] [Server thread/INFO] [net.petemc.mutantszombies.MutantsZombies/]: Loading mutantszombies server config

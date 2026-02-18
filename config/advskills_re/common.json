@@ -1,0 +1,22 @@
+{
+    "defaultSkillSlots": {
+        "active": 3,
+        "generic": 1,
+        "passive": 2
+    },
+    "disableSkillFruitGeneration": false,
+    "oakLeavesDropChance": 0.005,
+    "darkOakLeavesDropChance": 0.005,
+    "ancientCityChestGenerationChance": 0.25,
+    "buriedTreasureChestGenerationChance": 0.25,
+    "endCityTreasureChestGenerationChance": 0.25,
+    "spawnBonusChestGenerationChance": 1.0,
+    "initialDrawTimes": 5,
+    "skillConfig": {
+        "skillCooldownMultiplier": 1.0,
+        "skillXpMultiplier": 1.0,
+        "skillBlackList": [
+            "advskills_re:example (advskills_re can ignore)"
+        ]
+    }
+}

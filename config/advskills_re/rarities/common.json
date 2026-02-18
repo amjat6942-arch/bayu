@@ -1,0 +1,10 @@
+{
+  "level": 1,
+  "id": "common",
+  "roman": "I",
+  "color": 16777215,
+  "weight": 8,
+  "displayName": {
+    "translate": "advskills_re.skillRarity.common"
+  }
+}

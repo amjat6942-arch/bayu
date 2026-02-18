@@ -1,0 +1,10 @@
+{
+  "level": 3,
+  "id": "rare",
+  "roman": "III",
+  "color": 5636095,
+  "weight": 6,
+  "displayName": {
+    "translate": "advskills_re.skillRarity.rare"
+  }
+}

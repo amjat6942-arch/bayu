@@ -1,0 +1,10 @@
+{
+  "level": 4,
+  "id": "superb",
+  "roman": "IV",
+  "color": 16755200,
+  "weight": 5,
+  "displayName": {
+    "translate": "advskills_re.skillRarity.superb"
+  }
+}

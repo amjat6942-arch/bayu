@@ -1,0 +1,10 @@
+{
+  "level": 8,
+  "id": "unique",
+  "roman": "VIII",
+  "color": 11141120,
+  "weight": 1,
+  "displayName": {
+    "translate": "advskills_re.skillRarity.unique"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "level": 2,
+  "id": "uncommon",
+  "roman": "II",
+  "color": 5635925,
+  "weight": 7,
+  "displayName": {
+    "translate": "advskills_re.skillRarity.uncommon"
+  }
+}

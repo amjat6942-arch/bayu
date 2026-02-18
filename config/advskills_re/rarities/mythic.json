@@ -1,0 +1,10 @@
+{
+  "level": 7,
+  "id": "mythic",
+  "roman": "VII",
+  "color": 11141290,
+  "weight": 2,
+  "displayName": {
+    "translate": "advskills_re.skillRarity.mythic"
+  }
+}

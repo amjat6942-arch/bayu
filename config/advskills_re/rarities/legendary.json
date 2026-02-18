@@ -1,0 +1,10 @@
+{
+  "level": 6,
+  "id": "legendary",
+  "roman": "VI",
+  "color": 16733695,
+  "weight": 3,
+  "displayName": {
+    "translate": "advskills_re.skillRarity.legendary"
+  }
+}

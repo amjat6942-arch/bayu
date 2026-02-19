@@ -1795,12 +1795,21 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2026-02-19 17:07:06 +0000",
       "minecraft:taiga": "2026-02-18 17:33:42 +0000",
       "minecraft:eroded_badlands": "2026-02-18 17:31:15 +0000",
+      "minecraft:beach": "2026-02-19 15:32:16 +0000",
+      "minecraft:dark_forest": "2026-02-19 16:58:01 +0000",
       "minecraft:river": "2026-02-19 01:51:47 +0000",
+      "minecraft:stony_shore": "2026-02-19 16:55:27 +0000",
       "minecraft:dripstone_caves": "2026-02-19 01:21:22 +0000",
+      "minecraft:cold_ocean": "2026-02-19 16:47:33 +0000",
       "minecraft:forest": "2026-02-19 02:10:37 +0000",
-      "minecraft:lush_caves": "2026-02-19 10:16:52 +0000"
+      "minecraft:lush_caves": "2026-02-19 10:16:52 +0000",
+      "minecraft:deep_cold_ocean": "2026-02-19 17:10:11 +0000",
+      "minecraft:ocean": "2026-02-19 16:56:44 +0000",
+      "minecraft:flower_forest": "2026-02-19 16:55:13 +0000",
+      "minecraft:plains": "2026-02-19 16:50:28 +0000"
     },
     "done": false
   },
@@ -2978,6 +2987,7 @@
     "criteria": {
       "minecraft:skeleton": "2026-02-18 18:59:27 +0000",
       "minecraft:spider": "2026-02-19 01:18:12 +0000",
+      "minecraft:cave_spider": "2026-02-19 16:11:55 +0000",
       "minecraft:enderman": "2026-02-19 01:19:05 +0000",
       "minecraft:zombie": "2026-02-18 18:57:08 +0000"
     },
@@ -3675,7 +3685,9 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
-      "brown_mushroom": "2026-02-19 01:32:22 +0000"
+      "brown_mushroom": "2026-02-19 01:32:22 +0000",
+      "sugar_cane": "2026-02-19 16:31:50 +0000",
+      "red_mushroom": "2026-02-19 17:56:29 +0000"
     },
     "done": false
   },
@@ -4938,6 +4950,246 @@
       "porkchop": "2026-02-19 10:17:59 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2026-02-19 16:03:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2026-02-19 16:03:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2026-02-19 16:03:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2026-02-19 16:03:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/combat/handle_from_string": {
+    "criteria": {
+      "has_string": "2026-02-19 16:03:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2026-02-19 16:03:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2026-02-19 16:03:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2026-02-19 16:03:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/studded_club": {
+    "criteria": {
+      "has_club": "2026-02-19 16:07:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2026-02-19 16:21:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2026-02-19 16:21:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2026-02-19 16:30:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2026-02-19 16:30:52 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/gold_nugget_from_smelting_knife": {
+    "criteria": {
+      "has_golden_knife": "2026-02-19 16:47:40 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/gold_nugget_from_blasting_knife": {
+    "criteria": {
+      "has_golden_knife": "2026-02-19 16:47:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2026-02-19 16:56:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-02-19 16:56:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2026-02-19 16:56:21 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dumplings": {
+    "criteria": {
+      "has_any_ingredient": "2026-02-19 17:01:24 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/bouquet": {
+    "criteria": {
+      "has_item": "2026-02-19 17:01:24 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fish_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-02-19 17:01:24 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/barbecue_stick": {
+    "criteria": {
+      "has_onion": "2026-02-19 17:01:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2026-02-19 17:01:24 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/ratatouille": {
+    "criteria": {
+      "has_any_ingredient": "2026-02-19 17:01:24 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/onion_crate": {
+    "criteria": {
+      "has_onion": "2026-02-19 17:01:24 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2026-02-19 17:01:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2026-02-19 17:03:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2026-02-19 17:03:07 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2026-02-19 17:03:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2026-02-19 17:09:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2026-02-19 17:09:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2026-02-19 17:09:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2026-02-19 17:38:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2026-02-19 17:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2026-02-19 17:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2026-02-19 17:58:03 +0000"
+    },
+    "done": true
+  },
+  "butchery:splish_splash": {
+    "criteria": {
+      "splish_splash_0": "2026-02-19 18:04:31 +0000"
+    },
+    "done": true
+  },
+  "butchery:leather_late_than_never": {
+    "criteria": {
+      "leather_late_than_never_0": "2026-02-19 18:06:24 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/gold_backpack": {
+    "criteria": {
+      "has_iron_backpack": "2026-02-19 18:09:08 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/diamond_backpack": {
+    "criteria": {
+      "has_gold_backpack": "2026-02-19 18:11:01 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

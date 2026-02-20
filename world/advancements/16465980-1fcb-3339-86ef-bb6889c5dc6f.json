@@ -1797,15 +1797,18 @@
     "criteria": {
       "minecraft:taiga": "2026-02-19 03:02:32 +0000",
       "minecraft:eroded_badlands": "2026-02-19 01:22:44 +0000",
+      "minecraft:sunflower_plains": "2026-02-20 09:09:21 +0000",
       "minecraft:wooded_badlands": "2026-02-19 03:01:20 +0000",
       "minecraft:badlands": "2026-02-19 01:43:58 +0000",
       "minecraft:beach": "2026-02-19 01:28:33 +0000",
       "minecraft:sparse_jungle": "2026-02-19 01:49:06 +0000",
       "minecraft:lukewarm_ocean": "2026-02-19 01:28:05 +0000",
       "minecraft:river": "2026-02-19 01:59:15 +0000",
+      "minecraft:stony_shore": "2026-02-20 08:57:36 +0000",
       "minecraft:forest": "2026-02-19 01:59:34 +0000",
       "minecraft:desert": "2026-02-19 01:59:22 +0000",
       "minecraft:jungle": "2026-02-19 01:35:28 +0000",
+      "minecraft:flower_forest": "2026-02-20 09:02:57 +0000",
       "minecraft:savanna": "2026-02-19 02:58:56 +0000",
       "minecraft:plains": "2026-02-19 01:48:44 +0000"
     },
@@ -2323,6 +2326,7 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
+      "sweet_berries": "2026-02-20 08:59:30 +0000",
       "sugar_cane": "2026-02-19 01:33:49 +0000"
     },
     "done": false
@@ -3227,6 +3231,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "sweet_berries": "2026-02-20 08:56:06 +0000",
       "apple": "2026-02-19 01:53:47 +0000",
       "mutton": "2026-02-19 01:54:05 +0000",
       "bread": "2026-02-19 03:11:12 +0000"
@@ -3872,6 +3877,114 @@
   "farmersdelight:recipes/food/sweet_berry_cookie": {
     "criteria": {
       "has_sweet_berries": "2026-02-19 10:20:01 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "cabbage_seeds": "2026-02-20 09:04:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2026-02-20 09:00:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2026-02-20 09:05:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2026-02-20 09:05:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2026-02-20 09:10:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2026-02-20 09:03:52 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/bouquet": {
+    "criteria": {
+      "has_item": "2026-02-20 09:03:01 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/iron_ladder": {
+    "criteria": {
+      "has_iron_bars": "2026-02-20 09:05:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2026-02-20 09:05:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2026-02-20 09:05:23 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/seagull_steal": {
+    "criteria": {
+      "ex": "2026-02-20 08:58:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2026-02-20 09:03:12 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/combat/handle_from_string": {
+    "criteria": {
+      "has_string": "2026-02-20 09:05:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2026-02-20 09:03:01 +0000"
+    },
+    "done": true
+  },
+  "mcwpaths:recipes/soil": {
+    "criteria": {
+      "has_wood": "2026-02-20 08:52:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2026-02-20 09:05:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2026-02-20 09:03:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2026-02-20 09:05:23 +0000"
     },
     "done": true
   },

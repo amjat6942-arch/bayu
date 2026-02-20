@@ -1798,8 +1798,10 @@
       "minecraft:taiga": "2026-02-19 10:27:50 +0000",
       "minecraft:eroded_badlands": "2026-02-19 09:51:58 +0000",
       "minecraft:badlands": "2026-02-19 10:12:28 +0000",
+      "minecraft:beach": "2026-02-20 09:40:43 +0000",
       "minecraft:river": "2026-02-19 10:15:00 +0000",
       "minecraft:forest": "2026-02-19 10:15:03 +0000",
+      "minecraft:meadow": "2026-02-20 10:12:41 +0000",
       "minecraft:savanna": "2026-02-19 10:15:50 +0000",
       "minecraft:plains": "2026-02-19 10:13:24 +0000"
     },
@@ -2117,9 +2119,141 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_scythe": {
+  "minecraft:recipes/redstone/target": {
     "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
+      "has_hay_block": "2026-02-19 15:01:05 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/bridge_torch": {
+    "criteria": {
+      "has_planks": "2026-02-19 15:01:05 +0000"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/tiki_torches": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:01:05 +0000"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/paper_lamp": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:01:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2026-02-19 15:01:05 +0000"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/lantern": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:01:05 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/small_arrow_quiver": {
+    "criteria": {
+      "has_arrow": "2026-02-19 15:03:19 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/spruce_bridge_pier": {
+    "criteria": {
+      "has_planks": "2026-02-19 15:07:43 +0000"
+    },
+    "done": true
+  },
+  "mcwstairs:recipes/spruce": {
+    "criteria": {
+      "has_planks": "2026-02-19 15:07:43 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_club": {
+    "criteria": {
+      "has_wood_log": "2026-02-19 15:07:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-02-19 15:07:43 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:07:43 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/spruce": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:07:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2026-02-19 15:07:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2026-02-19 15:07:43 +0000"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/spruce": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:07:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2026-02-19 15:13:28 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/bouquet": {
+    "criteria": {
+      "has_item": "2026-02-19 15:13:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2026-02-19 15:14:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2026-02-19 15:14:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2026-02-19 15:35:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2026-02-19 15:35:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2026-02-19 15:35:50 +0000"
     },
     "done": true
   },
@@ -2135,24 +2269,6 @@
     },
     "done": true
   },
-  "mcwbridges:recipes/spruce_bridge_pier": {
-    "criteria": {
-      "has_planks": "2026-02-19 15:07:43 +0000"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/spruce_rail_bridge": {
-    "criteria": {
-      "has_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/rope_spruce_bridge": {
-    "criteria": {
-      "has_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/stone_katana": {
     "criteria": {
       "has_cobblestone": "2026-02-19 15:39:06 +0000"
@@ -2162,12 +2278,6 @@
   "spartanweaponry:recipes/stone_battle_hammer": {
     "criteria": {
       "has_cobblestone": "2026-02-19 15:39:06 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_spear": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
     },
     "done": true
   },
@@ -2183,27 +2293,9 @@
     },
     "done": true
   },
-  "mcwstairs:recipes/spruce": {
-    "criteria": {
-      "has_planks": "2026-02-19 15:07:43 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/stone_throwing_knife": {
     "criteria": {
       "has_cobblestone": "2026-02-19 15:39:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/stick": {
-    "criteria": {
-      "has_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/red_spruce_crib": {
-    "criteria": {
-      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
     },
     "done": true
   },
@@ -2213,63 +2305,9 @@
     },
     "done": true
   },
-  "mca:recipes/decorations/orange_spruce_crib": {
-    "criteria": {
-      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/yellow_spruce_crib": {
-    "criteria": {
-      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/pink_spruce_crib": {
-    "criteria": {
-      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2026-02-19 15:39:06 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_saber": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_javelin": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/target": {
-    "criteria": {
-      "has_hay_block": "2026-02-19 15:01:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/spruce_fence": {
-    "criteria": {
-      "has_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/white_spruce_crib": {
-    "criteria": {
-      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_quarterstaff": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
     },
     "done": true
   },
@@ -2279,45 +2317,9 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_club": {
-    "criteria": {
-      "has_wood_log": "2026-02-19 15:07:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_button": {
-    "criteria": {
-      "has_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/flower_banner_pattern": {
-    "criteria": {
-      "has_oxeye_daisy": "2026-02-19 15:14:55 +0000"
-    },
-    "done": true
-  },
-  "mcwpaths:recipes/spruce": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_warhammer": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/stone_tomahawk": {
     "criteria": {
       "has_cobblestone": "2026-02-19 15:39:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_pressure_plate": {
-    "criteria": {
-      "has_planks": "2026-02-19 15:52:53 +0000"
     },
     "done": true
   },
@@ -2327,87 +2329,15 @@
     },
     "done": true
   },
-  "mca:recipes/decorations/light_gray_spruce_crib": {
-    "criteria": {
-      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_greatsword": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/charcoal": {
-    "criteria": {
-      "has_log": "2026-02-19 15:07:43 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_parrying_dagger": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_rapier": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/spruce": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:07:43 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/stone_battleaxe": {
     "criteria": {
       "has_cobblestone": "2026-02-19 15:39:06 +0000"
     },
     "done": true
   },
-  "mca:recipes/decorations/blue_spruce_crib": {
-    "criteria": {
-      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_boomerang": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "mcwwindows:recipes/spruce": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:07:43 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/black_spruce_crib": {
-    "criteria": {
-      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/bridge_lantern": {
-    "criteria": {
-      "has_planks": "2026-02-19 15:39:15 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/stone_spear": {
     "criteria": {
       "has_cobblestone": "2026-02-19 15:39:06 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_throwing_knife": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
     },
     "done": true
   },
@@ -2429,45 +2359,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/blue_dye_from_cornflower": {
-    "criteria": {
-      "has_cornflower": "2026-02-19 15:13:28 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_flanged_mace": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/misc/bouquet": {
-    "criteria": {
-      "has_item": "2026-02-19 15:13:28 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/barrel": {
-    "criteria": {
-      "has_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/bridge_torch": {
-    "criteria": {
-      "has_planks": "2026-02-19 15:01:05 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2026-02-19 15:39:06 +0000"
-    },
-    "done": true
-  },
-  "mcwlights:recipes/tiki_torches": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:01:05 +0000"
     },
     "done": true
   },
@@ -2486,12 +2380,6 @@
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2026-02-19 15:39:06 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_longbow": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
     },
     "done": true
   },
@@ -2519,36 +2407,6 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_glaive": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_nugget_from_smelting": {
-    "criteria": {
-      "has_iron_pickaxe": "2026-02-19 15:35:50 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/light_blue_spruce_crib": {
-    "criteria": {
-      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/iron_tools": {
-    "criteria": {
-      "iron_pickaxe": "2026-02-19 15:35:50 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/magenta_spruce_crib": {
-    "criteria": {
-      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2026-02-19 15:39:06 +0000"
@@ -2567,99 +2425,9 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_lance": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_longsword": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/spruce_sign": {
-    "criteria": {
-      "has_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/stone_parrying_dagger": {
     "criteria": {
       "has_cobblestone": "2026-02-19 15:39:06 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_pike": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/purple_spruce_crib": {
-    "criteria": {
-      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_wood": {
-    "criteria": {
-      "has_log": "2026-02-19 15:07:43 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_halberd": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_katana": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/small_arrow_quiver": {
-    "criteria": {
-      "has_arrow": "2026-02-19 15:03:19 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/cyan_spruce_crib": {
-    "criteria": {
-      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/coal_block": {
-    "criteria": {
-      "has_coal": "2026-02-19 15:39:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_slab": {
-    "criteria": {
-      "has_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_battleaxe": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/green_spruce_crib": {
-    "criteria": {
-      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_battle_hammer": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
     },
     "done": true
   },
@@ -2675,39 +2443,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_planks": {
-    "criteria": {
-      "has_logs": "2026-02-19 15:07:43 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/brown_spruce_crib": {
-    "criteria": {
-      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/stone_quarterstaff": {
     "criteria": {
       "has_cobblestone": "2026-02-19 15:39:06 +0000"
-    },
-    "done": true
-  },
-  "mcwlights:recipes/paper_lamp": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:01:05 +0000"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/spruce_log_bridge_middle": {
-    "criteria": {
-      "has_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_dagger": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
     },
     "done": true
   },
@@ -2723,45 +2461,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/spruce_trapdoor": {
-    "criteria": {
-      "has_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_door": {
-    "criteria": {
-      "has_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_fence_gate": {
-    "criteria": {
-      "has_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "mcwdoors:recipes/spruce": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:07:43 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/stone_javelin": {
     "criteria": {
       "has_cobblestone": "2026-02-19 15:39:06 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_heavy_crossbow": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/gray_spruce_crib": {
-    "criteria": {
-      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
     },
     "done": true
   },
@@ -2789,39 +2491,9 @@
     },
     "done": true
   },
-  "mca:recipes/decorations/lime_spruce_crib": {
-    "criteria": {
-      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_nugget_from_blasting": {
-    "criteria": {
-      "has_iron_pickaxe": "2026-02-19 15:35:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_tomahawk": {
-    "criteria": {
-      "has_wood": "2026-02-19 15:52:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
-    "criteria": {
-      "has_oxeye_daisy": "2026-02-19 15:14:55 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2026-02-19 15:39:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/wheat": {
-    "criteria": {
-      "has_hay_block": "2026-02-19 15:01:05 +0000"
     },
     "done": true
   },
@@ -2849,6 +2521,348 @@
     },
     "done": true
   },
+  "mcwbridges:recipes/bridge_lantern": {
+    "criteria": {
+      "has_planks": "2026-02-19 15:39:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2026-02-19 15:39:15 +0000"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/torches": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:39:15 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_scythe": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/spruce_rail_bridge": {
+    "criteria": {
+      "has_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/rope_spruce_bridge": {
+    "criteria": {
+      "has_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_spear": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/red_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/orange_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/yellow_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/pink_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_saber": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_javelin": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/white_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_quarterstaff": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mcwpaths:recipes/spruce": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_warhammer": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/light_gray_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_greatsword": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_parrying_dagger": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_rapier": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/blue_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_boomerang": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/black_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_throwing_knife": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_flanged_mace": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_longbow": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_glaive": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/light_blue_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/magenta_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_lance": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_longsword": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_pike": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/purple_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_halberd": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_katana": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/cyan_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_battleaxe": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/green_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_battle_hammer": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/brown_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/spruce_log_bridge_middle": {
+    "criteria": {
+      "has_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_dagger": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_heavy_crossbow": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/gray_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/lime_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_tomahawk": {
+    "criteria": {
+      "has_wood": "2026-02-19 15:52:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
       "has_planks": "2026-02-19 15:52:53 +0000"
@@ -2861,15 +2875,93 @@
     },
     "done": true
   },
-  "mcwlights:recipes/lantern": {
+  "minecraft:recipes/misc/black_dye": {
     "criteria": {
-      "has_wood": "2026-02-19 15:01:05 +0000"
+      "has_ink_sac": "2026-02-20 08:24:59 +0000"
     },
     "done": true
   },
-  "mcwlights:recipes/torches": {
+  "mcwpaths:recipes/soil": {
     "criteria": {
-      "has_wood": "2026-02-19 15:39:15 +0000"
+      "has_wood": "2026-02-20 08:26:17 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/spruce_banister": {
+    "criteria": {
+      "has_item": "2026-02-20 08:46:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2026-02-20 08:46:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2026-02-20 09:22:13 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/sweet_berry_cookie": {
+    "criteria": {
+      "has_sweet_berries": "2026-02-20 09:43:47 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_campfire_cooking": {
+    "criteria": {
+      "fried_egg": "2026-02-20 09:48:51 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_smoking": {
+    "criteria": {
+      "fried_egg": "2026-02-20 09:48:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2026-02-20 09:48:51 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fried_rice": {
+    "criteria": {
+      "has_any_ingredient": "2026-02-20 09:48:51 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/potions": {
+    "criteria": {
+      "has_item": "2026-02-20 09:48:51 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg": {
+    "criteria": {
+      "fried_egg": "2026-02-20 09:48:51 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/grizzly_bear": {
+    "criteria": {
+      "killed_by": "2026-02-20 09:51:37 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dog_food": {
+    "criteria": {
+      "has_any_ingredient": "2026-02-20 09:55:50 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2026-02-20 09:55:50 +0000"
     },
     "done": true
   },

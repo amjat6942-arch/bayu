@@ -1,20 +1,20 @@
-[19Feb2026 18:46:42.368] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[19Feb2026 18:46:42.372] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 25.0.1 by Microsoft; OS Linux arch amd64 version 6.8.0-1030-azure
-[19Feb2026 18:46:43.968] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[19Feb2026 18:46:44.028] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/test-aja/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[19Feb2026 18:46:44.476] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/test-aja/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
-[19Feb2026 18:46:44.478] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/test-aja/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[19Feb2026 18:46:44.479] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/test-aja/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[19Feb2026 18:46:44.481] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/test-aja/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[19Feb2026 18:46:45.022] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[19Feb2026 18:46:45.024] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/test-aja/mods/geckolib-forge-1.20.1-4.8.3.jar
-[19Feb2026 18:46:45.024] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 20 dependencies adding them to mods collection
-[19Feb2026 18:46:48.139] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[19Feb2026 18:46:48.338] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.tradecycling.MixinConnector]
-[19Feb2026 18:46:48.340] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[19Feb2026 18:46:48.510] [main/WARN] [mixin/]: Reference map 'carryonextend.refmap.json' for carryonextend.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Feb2026 18:46:48.622] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Feb2026 18:46:48.737] [main/INFO] [Puzzles Lib/]: Loading 89 mods:
+[20Feb2026 05:19:03.771] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[20Feb2026 05:19:03.777] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 25.0.1 by Microsoft; OS Linux arch amd64 version 6.8.0-1030-azure
+[20Feb2026 05:19:05.258] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[20Feb2026 05:19:05.315] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/test-aja/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[20Feb2026 05:19:05.717] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/test-aja/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[20Feb2026 05:19:05.718] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/test-aja/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[20Feb2026 05:19:05.719] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/test-aja/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[20Feb2026 05:19:05.720] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/test-aja/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[20Feb2026 05:19:06.324] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[20Feb2026 05:19:06.326] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/test-aja/mods/geckolib-forge-1.20.1-4.8.3.jar
+[20Feb2026 05:19:06.327] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 20 dependencies adding them to mods collection
+[20Feb2026 05:19:09.560] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20Feb2026 05:19:09.792] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.tradecycling.MixinConnector]
+[20Feb2026 05:19:09.795] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[20Feb2026 05:19:09.948] [main/WARN] [mixin/]: Reference map 'carryonextend.refmap.json' for carryonextend.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Feb2026 05:19:10.033] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Feb2026 05:19:10.151] [main/INFO] [Puzzles Lib/]: Loading 89 mods:
 	- advskills_re 1.1.0-beta.1
 	- alexsmobs 1.22.9
 	- almanac 1.0.2
@@ -104,257 +104,257 @@
 		\-- xaerolib 1.0.45
 	- xaeroworldmap 1.40.6
 	- zillagersweararmor 1.20.1-1.3.5
-[19Feb2026 18:46:49.914] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/equipment/armor/BacktankBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.equipment.armor.BacktankBlockEntity)
-[19Feb2026 18:46:49.914] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.equipment.armor.BacktankBlockEntity was not found jadeaddons.mixins.json:create.BacktankBlockEntityAccess
-[19Feb2026 18:46:50.129] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Camera for invalid dist DEDICATED_SERVER
-[19Feb2026 18:46:50.130] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Camera (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Camera for invalid dist DEDICATED_SERVER)
-[19Feb2026 18:46:50.130] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Camera was not found pomkotsmechs.mixins.json:CameraAccessor
-[19Feb2026 18:46:50.420] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[19Feb2026 18:46:50.420] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[19Feb2026 18:46:50.555] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[19Feb2026 18:46:50.731] [main/INFO] [mixin/]: Mixing server.MixinDedicatedServer from mixins/common/nochatreports.mixins.json into net.minecraft.server.dedicated.DedicatedServer
-[19Feb2026 18:46:55.727] [main/INFO] [mixin/]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.network.FriendlyByteBuf
-[19Feb2026 18:46:55.728] [main/INFO] [mixin/]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to md87e785$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf
-[19Feb2026 18:46:55.729] [main/INFO] [mixin/]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to md87e785$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf
-[19Feb2026 18:46:55.885] [main/INFO] [mixin/]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.server.network.ServerGamePacketListenerImpl
-[19Feb2026 18:46:57.068] [modloading-worker-0/INFO] [mixin/]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.server.players.PlayerList
-[19Feb2026 18:46:57.114] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for illagerinvasion:main
-[19Feb2026 18:46:57.305] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Registering common data for channel xaeroworldmap:main!
-[19Feb2026 18:46:57.370] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[19Feb2026 18:46:57.377] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[19Feb2026 18:46:57.377] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[19Feb2026 18:46:57.377] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[19Feb2026 18:46:57.377] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[19Feb2026 18:46:57.377] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[19Feb2026 18:46:57.377] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[19Feb2026 18:46:57.376] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading primary common config for channel xaeroworldmap:main!
-[19Feb2026 18:46:57.387] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading server config profiles for channel xaeroworldmap:main!
-[19Feb2026 18:46:58.079] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.13.
-[19Feb2026 18:46:58.237] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
-[19Feb2026 18:46:58.246] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 12
-[19Feb2026 18:46:58.253] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 12 has been initalized!
-[19Feb2026 18:46:58.792] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[19Feb2026 18:46:58.918] [modloading-worker-0/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
-[19Feb2026 18:46:59.202] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
-[19Feb2026 18:46:59.203] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
-[19Feb2026 18:46:59.207] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
-[19Feb2026 18:46:59.352] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[19Feb2026 18:46:59.380] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[19Feb2026 18:46:59.475] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 46 properties.
-[19Feb2026 18:46:59.904] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
-[19Feb2026 18:46:59.904] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
-[19Feb2026 18:46:59.926] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
-[19Feb2026 18:46:59.926] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_lance_collision
-[19Feb2026 18:47:00.029] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:kpm
-[19Feb2026 18:47:00.029] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:ctx
-[19Feb2026 18:47:00.030] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:lh
-[19Feb2026 18:47:00.030] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:ulh
-[19Feb2026 18:47:00.031] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:ls
-[19Feb2026 18:47:00.031] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:uls
-[19Feb2026 18:47:00.035] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:lm
-[19Feb2026 18:47:00.035] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:ulm
-[19Feb2026 18:47:00.035] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:lmc
-[19Feb2026 18:47:00.269] [modloading-worker-0/INFO] [com.imoonday.advskills_re.config.GlobalConfig/]: Loading advskills_re-common configuration file
-[19Feb2026 18:47:00.328] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:use_skill_c2s/8e1b5792822431d88a85c93abafea511
-[19Feb2026 18:47:00.329] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:equip_skill_c2s/5dc1503956bc35e596149923d7bd551b
-[19Feb2026 18:47:00.333] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:send_player_data_c2s/a473c639972d34c0a7b8615b047e92fe
-[19Feb2026 18:47:00.336] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:choose_skill_c2s/ea7e3939633e3379816902aad2cab7bb
-[19Feb2026 18:47:00.337] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:refresh_choice_c2s/42c68c74b00739dab48a31e7bf1945bb
-[19Feb2026 18:47:00.340] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:sync_config_s2c/209ec301478c328aa7e6e10def525ca1
-[19Feb2026 18:47:00.345] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:learn_skill_s2c/9bc1b800afb33fedbed16fa65054722c
-[19Feb2026 18:47:00.347] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:sync_properties_s2c/1a847251475d35bf89e7f753a39e502d
-[19Feb2026 18:47:00.352] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:sync_player_data_s2c/5014e8c124ad39659f140ca2a399ba1d
-[19Feb2026 18:47:00.353] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:request_sync_component_c2s/6ce76b16b4343949910d27e272222af3
-[19Feb2026 18:47:00.354] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:update_ore_cache_s2c/2a3a9e2c8562304ea558d9099fcfc87c
-[19Feb2026 18:47:00.363] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:enhance_skill_s2c/5911cad8ae1e32b0914d9947711b85be
-[19Feb2026 18:47:00.368] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:update_jumping_c2s/dbfbfd51a63732489407d08b5cdfeebe
-[19Feb2026 18:47:00.369] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:sync_rarities_s2c/2c0bc178c39f3c928c6167e77eb115aa
-[19Feb2026 18:47:00.375] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:sync_settings_s2c/3d08963aa2d03ed8a715c05cde0ee64c
-[19Feb2026 18:47:00.376] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:modify_enhancement_c2s/2533e5cd2fe6342783001810a8c60b11
-[19Feb2026 18:47:00.513] [modloading-worker-0/INFO] [libIPN/]: [libIPN] libIPN - init in Kotlin
-[19Feb2026 18:47:00.669] [modloading-worker-0/INFO] [NoChatReports/]: KONNICHIWA ZA WARUDO!
-[19Feb2026 18:47:00.670] [modloading-worker-0/INFO] [NoChatReports/]: Default JVM text encoding is: UTF-8
-[19Feb2026 18:47:00.681] [modloading-worker-0/INFO] [NoChatReports/]: Reading config file NoChatReports/NCR-Common.json...
-[19Feb2026 18:47:00.682] [modloading-worker-0/INFO] [NoChatReports/]: Writing config file NoChatReports/NCR-Common.json...
-[19Feb2026 18:47:00.766] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[19Feb2026 18:47:00.837] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
-[19Feb2026 18:47:00.904] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
-[19Feb2026 18:47:00.912] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
-[19Feb2026 18:47:01.004] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
-[19Feb2026 18:47:04.006] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms08] was not realized!
-[19Feb2026 18:47:04.006] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms09] was not realized!
-[19Feb2026 18:47:04.006] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms04] was not realized!
-[19Feb2026 18:47:04.006] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms05] was not realized!
-[19Feb2026 18:47:04.006] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms06] was not realized!
-[19Feb2026 18:47:04.006] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms07] was not realized!
-[19Feb2026 18:47:04.007] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms01] was not realized!
-[19Feb2026 18:47:04.007] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms02] was not realized!
-[19Feb2026 18:47:04.007] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms03] was not realized!
-[19Feb2026 18:47:04.007] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb01mk2] was not realized!
-[19Feb2026 18:47:04.007] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb05] was not realized!
-[19Feb2026 18:47:04.007] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb06] was not realized!
-[19Feb2026 18:47:04.007] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb01] was not realized!
-[19Feb2026 18:47:04.007] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb02] was not realized!
-[19Feb2026 18:47:04.007] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb03] was not realized!
-[19Feb2026 18:47:04.008] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb04] was not realized!
-[19Feb2026 18:47:04.012] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms08] was not realized!
-[19Feb2026 18:47:04.013] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms09] was not realized!
-[19Feb2026 18:47:04.013] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms04] was not realized!
-[19Feb2026 18:47:04.013] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms05] was not realized!
-[19Feb2026 18:47:04.013] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms06] was not realized!
-[19Feb2026 18:47:04.013] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms07] was not realized!
-[19Feb2026 18:47:04.013] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms01] was not realized!
-[19Feb2026 18:47:04.013] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms02] was not realized!
-[19Feb2026 18:47:04.013] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms03] was not realized!
-[19Feb2026 18:47:04.014] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb01mk2] was not realized!
-[19Feb2026 18:47:04.014] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb05] was not realized!
-[19Feb2026 18:47:04.014] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb06] was not realized!
-[19Feb2026 18:47:04.014] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb01] was not realized!
-[19Feb2026 18:47:04.014] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb02] was not realized!
-[19Feb2026 18:47:04.014] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb03] was not realized!
-[19Feb2026 18:47:04.014] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb04] was not realized!
-[19Feb2026 18:47:04.540] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.GrimReaperEntity from class forge.net.mca.util.network.datasync.CEnumParameter
-[19Feb2026 18:47:04.554] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.554] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.555] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.555] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.555] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.555] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.555] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.556] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
-[19Feb2026 18:47:04.558] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.558] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.558] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.558] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.558] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.559] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.559] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.559] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.559] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.559] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.560] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.560] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
-[19Feb2026 18:47:04.560] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.564] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.564] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
-[19Feb2026 18:47:04.565] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.565] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
-[19Feb2026 18:47:04.565] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
-[19Feb2026 18:47:04.565] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.565] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.566] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.566] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.566] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.568] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.572] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.572] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.573] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.574] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.574] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[19Feb2026 18:47:04.767] [main/INFO] [Spartan Weaponry/]: Updating config settings!
-[19Feb2026 18:47:04.798] [modloading-worker-0/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading Open Parties and Claims!
-[19Feb2026 18:47:04.870] [modloading-worker-0/INFO] [com.va11halla.casualness_delight.Casualness_Delight/]: HELLO FROM COMMON SETUP
-[19Feb2026 18:47:04.872] [modloading-worker-0/INFO] [com.va11halla.casualness_delight.Casualness_Delight/]: DIRT BLOCK >> minecraft:dirt
-[19Feb2026 18:47:04.872] [modloading-worker-0/INFO] [me.andreasmelone.glowingeyes.forge.GlowingEyesForge/]: Glowing Eyes common setup
-[19Feb2026 18:47:04.913] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
-[19Feb2026 18:47:04.969] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
-[19Feb2026 18:47:04.991] [modloading-worker-0/INFO] [net.veroxuniverse.knightsnmages.KnightsnMages/]: HELLO FROM COMMON SETUP
-[19Feb2026 18:47:05.007] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [illagerinvasion] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/illagerinvasion.json
-[19Feb2026 18:47:05.147] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
-[19Feb2026 18:47:05.147] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
-[19Feb2026 18:47:05.148] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
-[19Feb2026 18:47:05.148] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
-[19Feb2026 18:47:05.148] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
-[19Feb2026 18:47:05.148] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
-[19Feb2026 18:47:05.148] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
-[19Feb2026 18:47:05.148] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
-[19Feb2026 18:47:05.148] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:throwable_using for minecraft:living_entity
-[19Feb2026 18:47:05.153] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[19Feb2026 18:47:05.153] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
-[19Feb2026 18:47:05.154] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[19Feb2026 18:47:05.156] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[19Feb2026 18:47:05.157] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
-[19Feb2026 18:47:05.157] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
-[19Feb2026 18:47:05.157] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[19Feb2026 18:47:05.240] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
-[19Feb2026 18:47:05.247] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
-[19Feb2026 18:47:05.248] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.JadeAddonsBase
-[19Feb2026 18:47:05.250] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
-[19Feb2026 18:47:05.251] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.hollingsworth.arsnouveau.client.waila.WailaArsNouveauPlugin
-[19Feb2026 18:47:05.251] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[19Feb2026 18:47:05.262] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[19Feb2026 18:47:05.266] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[19Feb2026 18:47:05.377] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [illagerinvasion] Found status: UP_TO_DATE Current: 8.0.7 Target: null
-[19Feb2026 18:47:05.377] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
-[19Feb2026 18:47:05.390] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.4.2 Target: null
-[19Feb2026 18:47:05.390] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwstairs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/stairs.json
-[19Feb2026 18:47:05.396] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwstairs] Found status: UP_TO_DATE Current: 1.0.2 Target: null
-[19Feb2026 18:47:05.396] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
-[19Feb2026 18:47:06.195] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.15 Target: 20.2.15
-[19Feb2026 18:47:06.195] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
-[19Feb2026 18:47:06.204] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: UP_TO_DATE Current: 1.1.2 Target: null
-[19Feb2026 18:47:06.204] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[19Feb2026 18:47:07.453] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
-[19Feb2026 18:47:07.453] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
-[19Feb2026 18:47:07.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 3.1.0 Target: null
-[19Feb2026 18:47:07.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/fences.json
-[19Feb2026 18:47:07.463] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Found status: UP_TO_DATE Current: 1.2.1 Target: null
-[19Feb2026 18:47:07.463] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
-[19Feb2026 18:47:07.467] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.4.1 Target: null
-[19Feb2026 18:47:07.467] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwlights] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/lights.json
-[19Feb2026 18:47:07.473] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwlights] Found status: UP_TO_DATE Current: 1.1.5 Target: null
-[19Feb2026 18:47:07.473] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaintings] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/paintings.json
-[19Feb2026 18:47:07.482] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaintings] Found status: UP_TO_DATE Current: 1.0.5 Target: null
-[19Feb2026 18:47:07.482] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
-[19Feb2026 18:47:07.668] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
-[19Feb2026 18:47:07.668] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Starting version check at https://api.modrinth.com/updates/OhduvhIc/forge_updates.json
-[19Feb2026 18:47:08.165] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Found status: OUTDATED Current: 1.1.0 Target: 1.1.0+mod
-[19Feb2026 18:47:08.166] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
-[19Feb2026 18:47:08.170] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
-[19Feb2026 18:47:08.170] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[19Feb2026 18:47:08.600] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
-[19Feb2026 18:47:08.600] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaths] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/paths.json
-[19Feb2026 18:47:08.604] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaths] Found status: UP_TO_DATE Current: 1.1.1 Target: null
-[19Feb2026 18:47:08.604] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [zillagersweararmor] Starting version check at https://raw.githubusercontent.com/seymourimadeit/illagersweararmor/master/update.json
-[19Feb2026 18:47:08.609] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [zillagersweararmor] Found status: BETA Current: 1.20.1-1.3.5 Target: null
-[19Feb2026 18:47:08.609] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Starting version check at https://update.maxhenkel.de/forge/trade_cycling
-[19Feb2026 18:47:09.460] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Found status: AHEAD Current: 1.20.1-1.0.18 Target: null
-[19Feb2026 18:47:09.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
-[19Feb2026 18:47:09.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.1.21 Target: 17.1.21
-[19Feb2026 18:47:09.679] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
-[19Feb2026 18:47:09.686] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.33 Target: null
-[19Feb2026 18:47:09.686] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [rrls] Starting version check at https://api.modrinth.com/updates/rrls/forge_updates.json
-[19Feb2026 18:47:09.969] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [rrls] Found status: UP_TO_DATE Current: 4.0.6.1+mc1.20.1-forge Target: null
-[19Feb2026 18:47:10.500] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19Feb2026 18:47:13.550] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/test-aja/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23265!/assets/.mcassetsroot' uses unexpected schema
-[19Feb2026 18:47:13.550] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/test-aja/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23265!/data/.mcassetsroot' uses unexpected schema
-[19Feb2026 18:47:22.889] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspaces/test-aja/tacz
-[19Feb2026 18:47:22.891] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
-[19Feb2026 18:47:22.892] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
-[19Feb2026 18:47:23.353] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
-[19Feb2026 18:47:24.161] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
-[19Feb2026 18:47:24.241] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[19Feb2026 18:47:24.440] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:ores/scarlet as it is missing following references: minecraft:scarlet_ore (from knightsnmages-0.0.7-neo.jar), 
+[20Feb2026 05:19:11.373] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/equipment/armor/BacktankBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.equipment.armor.BacktankBlockEntity)
+[20Feb2026 05:19:11.373] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.equipment.armor.BacktankBlockEntity was not found jadeaddons.mixins.json:create.BacktankBlockEntityAccess
+[20Feb2026 05:19:11.587] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Camera for invalid dist DEDICATED_SERVER
+[20Feb2026 05:19:11.588] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Camera (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Camera for invalid dist DEDICATED_SERVER)
+[20Feb2026 05:19:11.588] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Camera was not found pomkotsmechs.mixins.json:CameraAccessor
+[20Feb2026 05:19:11.904] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[20Feb2026 05:19:11.905] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[20Feb2026 05:19:12.046] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20Feb2026 05:19:12.315] [main/INFO] [mixin/]: Mixing server.MixinDedicatedServer from mixins/common/nochatreports.mixins.json into net.minecraft.server.dedicated.DedicatedServer
+[20Feb2026 05:19:17.193] [main/INFO] [mixin/]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.network.FriendlyByteBuf
+[20Feb2026 05:19:17.195] [main/INFO] [mixin/]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to mdb823a1$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf
+[20Feb2026 05:19:17.195] [main/INFO] [mixin/]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to mdb823a1$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf
+[20Feb2026 05:19:17.409] [main/INFO] [mixin/]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.server.network.ServerGamePacketListenerImpl
+[20Feb2026 05:19:18.752] [modloading-worker-0/INFO] [mixin/]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.server.players.PlayerList
+[20Feb2026 05:19:18.809] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for illagerinvasion:main
+[20Feb2026 05:19:18.980] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Registering common data for channel xaeroworldmap:main!
+[20Feb2026 05:19:19.033] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading primary common config for channel xaeroworldmap:main!
+[20Feb2026 05:19:19.052] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[20Feb2026 05:19:19.052] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[20Feb2026 05:19:19.052] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[20Feb2026 05:19:19.053] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[20Feb2026 05:19:19.053] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[20Feb2026 05:19:19.053] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[20Feb2026 05:19:19.053] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[20Feb2026 05:19:19.077] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading server config profiles for channel xaeroworldmap:main!
+[20Feb2026 05:19:19.698] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.13.
+[20Feb2026 05:19:19.902] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[20Feb2026 05:19:19.902] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 12
+[20Feb2026 05:19:19.903] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 12 has been initalized!
+[20Feb2026 05:19:20.497] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[20Feb2026 05:19:20.669] [modloading-worker-0/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
+[20Feb2026 05:19:20.846] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
+[20Feb2026 05:19:20.862] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[20Feb2026 05:19:20.864] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[20Feb2026 05:19:20.893] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[20Feb2026 05:19:20.927] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[20Feb2026 05:19:21.103] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 46 properties.
+[20Feb2026 05:19:21.531] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
+[20Feb2026 05:19:21.532] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[20Feb2026 05:19:21.647] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[20Feb2026 05:19:21.647] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[20Feb2026 05:19:21.743] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:kpm
+[20Feb2026 05:19:21.746] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:ctx
+[20Feb2026 05:19:21.746] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:lh
+[20Feb2026 05:19:21.747] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:ulh
+[20Feb2026 05:19:21.750] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:ls
+[20Feb2026 05:19:21.750] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:uls
+[20Feb2026 05:19:21.750] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:lm
+[20Feb2026 05:19:21.751] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:ulm
+[20Feb2026 05:19:21.751] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pomkotsmechs:lmc
+[20Feb2026 05:19:22.066] [modloading-worker-0/INFO] [com.imoonday.advskills_re.config.GlobalConfig/]: Loading advskills_re-common configuration file
+[20Feb2026 05:19:22.140] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:use_skill_c2s/8e1b5792822431d88a85c93abafea511
+[20Feb2026 05:19:22.142] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:equip_skill_c2s/5dc1503956bc35e596149923d7bd551b
+[20Feb2026 05:19:22.143] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:send_player_data_c2s/a473c639972d34c0a7b8615b047e92fe
+[20Feb2026 05:19:22.144] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:choose_skill_c2s/ea7e3939633e3379816902aad2cab7bb
+[20Feb2026 05:19:22.145] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:refresh_choice_c2s/42c68c74b00739dab48a31e7bf1945bb
+[20Feb2026 05:19:22.147] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:sync_config_s2c/209ec301478c328aa7e6e10def525ca1
+[20Feb2026 05:19:22.148] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:learn_skill_s2c/9bc1b800afb33fedbed16fa65054722c
+[20Feb2026 05:19:22.153] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:sync_properties_s2c/1a847251475d35bf89e7f753a39e502d
+[20Feb2026 05:19:22.154] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:sync_player_data_s2c/5014e8c124ad39659f140ca2a399ba1d
+[20Feb2026 05:19:22.157] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:request_sync_component_c2s/6ce76b16b4343949910d27e272222af3
+[20Feb2026 05:19:22.159] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:update_ore_cache_s2c/2a3a9e2c8562304ea558d9099fcfc87c
+[20Feb2026 05:19:22.160] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:enhance_skill_s2c/5911cad8ae1e32b0914d9947711b85be
+[20Feb2026 05:19:22.161] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:update_jumping_c2s/dbfbfd51a63732489407d08b5cdfeebe
+[20Feb2026 05:19:22.170] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:sync_rarities_s2c/2c0bc178c39f3c928c6167e77eb115aa
+[20Feb2026 05:19:22.172] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:sync_settings_s2c/3d08963aa2d03ed8a715c05cde0ee64c
+[20Feb2026 05:19:22.178] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id advskills_re:modify_enhancement_c2s/2533e5cd2fe6342783001810a8c60b11
+[20Feb2026 05:19:22.314] [modloading-worker-0/INFO] [libIPN/]: [libIPN] libIPN - init in Kotlin
+[20Feb2026 05:19:22.459] [modloading-worker-0/INFO] [NoChatReports/]: KONNICHIWA ZA WARUDO!
+[20Feb2026 05:19:22.463] [modloading-worker-0/INFO] [NoChatReports/]: Default JVM text encoding is: UTF-8
+[20Feb2026 05:19:22.468] [modloading-worker-0/INFO] [NoChatReports/]: Reading config file NoChatReports/NCR-Common.json...
+[20Feb2026 05:19:22.473] [modloading-worker-0/INFO] [NoChatReports/]: Writing config file NoChatReports/NCR-Common.json...
+[20Feb2026 05:19:22.663] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[20Feb2026 05:19:22.792] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
+[20Feb2026 05:19:22.916] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[20Feb2026 05:19:22.924] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[20Feb2026 05:19:22.925] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[20Feb2026 05:19:26.251] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms06] was not realized!
+[20Feb2026 05:19:26.251] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms05] was not realized!
+[20Feb2026 05:19:26.251] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms04] was not realized!
+[20Feb2026 05:19:26.251] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms03] was not realized!
+[20Feb2026 05:19:26.252] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms02] was not realized!
+[20Feb2026 05:19:26.252] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms01] was not realized!
+[20Feb2026 05:19:26.252] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms09] was not realized!
+[20Feb2026 05:19:26.252] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms08] was not realized!
+[20Feb2026 05:19:26.252] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms07] was not realized!
+[20Feb2026 05:19:26.252] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb06] was not realized!
+[20Feb2026 05:19:26.252] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb05] was not realized!
+[20Feb2026 05:19:26.252] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb04] was not realized!
+[20Feb2026 05:19:26.252] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb03] was not realized!
+[20Feb2026 05:19:26.253] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb01mk2] was not realized!
+[20Feb2026 05:19:26.253] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb02] was not realized!
+[20Feb2026 05:19:26.253] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb01] was not realized!
+[20Feb2026 05:19:26.257] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms06] was not realized!
+[20Feb2026 05:19:26.257] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms05] was not realized!
+[20Feb2026 05:19:26.257] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms04] was not realized!
+[20Feb2026 05:19:26.257] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms03] was not realized!
+[20Feb2026 05:19:26.257] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms02] was not realized!
+[20Feb2026 05:19:26.257] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms01] was not realized!
+[20Feb2026 05:19:26.258] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms09] was not realized!
+[20Feb2026 05:19:26.258] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms08] was not realized!
+[20Feb2026 05:19:26.258] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pms07] was not realized!
+[20Feb2026 05:19:26.258] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb06] was not realized!
+[20Feb2026 05:19:26.258] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb05] was not realized!
+[20Feb2026 05:19:26.258] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb04] was not realized!
+[20Feb2026 05:19:26.258] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb03] was not realized!
+[20Feb2026 05:19:26.258] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb01mk2] was not realized!
+[20Feb2026 05:19:26.259] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb02] was not realized!
+[20Feb2026 05:19:26.259] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / pomkotsmechs:pmb01] was not realized!
+[20Feb2026 05:19:26.771] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.GrimReaperEntity from class forge.net.mca.util.network.datasync.CEnumParameter
+[20Feb2026 05:19:26.788] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.788] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.788] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.788] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.788] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.789] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.789] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.789] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[20Feb2026 05:19:26.791] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.791] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.791] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.791] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.792] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.792] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.792] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.792] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.792] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.792] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.793] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.793] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[20Feb2026 05:19:26.793] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.798] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.798] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[20Feb2026 05:19:26.798] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.799] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[20Feb2026 05:19:26.799] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[20Feb2026 05:19:26.799] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.799] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.800] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.800] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.800] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.802] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.806] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.806] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.807] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.807] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.807] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Feb2026 05:19:26.998] [main/INFO] [Spartan Weaponry/]: Updating config settings!
+[20Feb2026 05:19:27.023] [modloading-worker-0/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading Open Parties and Claims!
+[20Feb2026 05:19:27.153] [modloading-worker-0/INFO] [com.va11halla.casualness_delight.Casualness_Delight/]: HELLO FROM COMMON SETUP
+[20Feb2026 05:19:27.153] [modloading-worker-0/INFO] [com.va11halla.casualness_delight.Casualness_Delight/]: DIRT BLOCK >> minecraft:dirt
+[20Feb2026 05:19:27.153] [modloading-worker-0/INFO] [me.andreasmelone.glowingeyes.forge.GlowingEyesForge/]: Glowing Eyes common setup
+[20Feb2026 05:19:27.223] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[20Feb2026 05:19:27.284] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
+[20Feb2026 05:19:27.296] [modloading-worker-0/INFO] [net.veroxuniverse.knightsnmages.KnightsnMages/]: HELLO FROM COMMON SETUP
+[20Feb2026 05:19:27.316] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [illagerinvasion] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/illagerinvasion.json
+[20Feb2026 05:19:27.434] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [illagerinvasion] Found status: UP_TO_DATE Current: 8.0.7 Target: null
+[20Feb2026 05:19:27.435] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[20Feb2026 05:19:27.444] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.4.2 Target: null
+[20Feb2026 05:19:27.444] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwstairs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/stairs.json
+[20Feb2026 05:19:27.468] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[20Feb2026 05:19:27.468] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[20Feb2026 05:19:27.468] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[20Feb2026 05:19:27.468] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[20Feb2026 05:19:27.468] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[20Feb2026 05:19:27.468] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[20Feb2026 05:19:27.468] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[20Feb2026 05:19:27.469] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[20Feb2026 05:19:27.469] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:throwable_using for minecraft:living_entity
+[20Feb2026 05:19:27.479] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[20Feb2026 05:19:27.480] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
+[20Feb2026 05:19:27.481] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[20Feb2026 05:19:27.485] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
+[20Feb2026 05:19:27.485] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
+[20Feb2026 05:19:27.485] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[20Feb2026 05:19:27.485] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[20Feb2026 05:19:27.601] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[20Feb2026 05:19:27.611] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[20Feb2026 05:19:27.612] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.JadeAddonsBase
+[20Feb2026 05:19:27.615] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[20Feb2026 05:19:27.615] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.hollingsworth.arsnouveau.client.waila.WailaArsNouveauPlugin
+[20Feb2026 05:19:27.616] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[20Feb2026 05:19:27.631] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[20Feb2026 05:19:27.635] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[20Feb2026 05:19:27.681] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwstairs] Found status: UP_TO_DATE Current: 1.0.2 Target: null
+[20Feb2026 05:19:27.681] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[20Feb2026 05:19:28.396] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.15 Target: 20.2.15
+[20Feb2026 05:19:28.396] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
+[20Feb2026 05:19:28.406] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: UP_TO_DATE Current: 1.1.2 Target: null
+[20Feb2026 05:19:28.406] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[20Feb2026 05:19:29.574] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
+[20Feb2026 05:19:29.574] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[20Feb2026 05:19:29.582] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 3.1.0 Target: null
+[20Feb2026 05:19:29.582] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/fences.json
+[20Feb2026 05:19:29.591] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Found status: UP_TO_DATE Current: 1.2.1 Target: null
+[20Feb2026 05:19:29.592] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[20Feb2026 05:19:29.598] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.4.1 Target: null
+[20Feb2026 05:19:29.599] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwlights] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/lights.json
+[20Feb2026 05:19:29.608] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwlights] Found status: UP_TO_DATE Current: 1.1.5 Target: null
+[20Feb2026 05:19:29.608] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaintings] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/paintings.json
+[20Feb2026 05:19:29.620] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaintings] Found status: UP_TO_DATE Current: 1.0.5 Target: null
+[20Feb2026 05:19:29.620] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[20Feb2026 05:19:29.789] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[20Feb2026 05:19:29.789] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Starting version check at https://api.modrinth.com/updates/OhduvhIc/forge_updates.json
+[20Feb2026 05:19:30.290] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Found status: OUTDATED Current: 1.1.0 Target: 1.1.0+mod
+[20Feb2026 05:19:30.290] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[20Feb2026 05:19:30.295] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[20Feb2026 05:19:30.296] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20Feb2026 05:19:30.779] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
+[20Feb2026 05:19:30.779] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaths] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/paths.json
+[20Feb2026 05:19:30.786] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaths] Found status: UP_TO_DATE Current: 1.1.1 Target: null
+[20Feb2026 05:19:30.786] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [zillagersweararmor] Starting version check at https://raw.githubusercontent.com/seymourimadeit/illagersweararmor/master/update.json
+[20Feb2026 05:19:30.791] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [zillagersweararmor] Found status: BETA Current: 1.20.1-1.3.5 Target: null
+[20Feb2026 05:19:30.791] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Starting version check at https://update.maxhenkel.de/forge/trade_cycling
+[20Feb2026 05:19:32.071] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Found status: AHEAD Current: 1.20.1-1.0.18 Target: null
+[20Feb2026 05:19:32.075] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
+[20Feb2026 05:19:32.238] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.1.21 Target: 17.1.21
+[20Feb2026 05:19:32.238] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[20Feb2026 05:19:32.242] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.33 Target: null
+[20Feb2026 05:19:32.242] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [rrls] Starting version check at https://api.modrinth.com/updates/rrls/forge_updates.json
+[20Feb2026 05:19:32.248] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20Feb2026 05:19:32.536] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [rrls] Found status: UP_TO_DATE Current: 4.0.6.1+mc1.20.1-forge Target: null
+[20Feb2026 05:19:35.386] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/test-aja/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23265!/assets/.mcassetsroot' uses unexpected schema
+[20Feb2026 05:19:35.386] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/test-aja/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23265!/data/.mcassetsroot' uses unexpected schema
+[20Feb2026 05:19:43.062] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspaces/test-aja/tacz
+[20Feb2026 05:19:43.064] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
+[20Feb2026 05:19:43.064] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
+[20Feb2026 05:19:43.599] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[20Feb2026 05:19:44.364] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
+[20Feb2026 05:19:44.446] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[20Feb2026 05:19:44.701] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:ores/scarlet as it is missing following references: minecraft:scarlet_ore (from knightsnmages-0.0.7-neo.jar), 
 	minecraft:deepslate_scarlet_ore (from knightsnmages-0.0.7-neo.jar)
-[19Feb2026 18:47:24.441] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:ores/moonlight as it is missing following references: minecraft:moonlight_ore (from knightsnmages-0.0.7-neo.jar), 
+[20Feb2026 05:19:44.701] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:ores/moonlight as it is missing following references: minecraft:moonlight_ore (from knightsnmages-0.0.7-neo.jar), 
 	minecraft:deepslate_moonlight_ore (from knightsnmages-0.0.7-neo.jar)
-[19Feb2026 18:47:24.441] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:ores/citrin as it is missing following references: minecraft:citrin_ore (from knightsnmages-0.0.7-neo.jar), 
+[20Feb2026 05:19:44.701] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:ores/citrin as it is missing following references: minecraft:citrin_ore (from knightsnmages-0.0.7-neo.jar), 
 	minecraft:deepslate_citrin_ore (from knightsnmages-0.0.7-neo.jar)
-[19Feb2026 18:47:24.441] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:ores as it is missing following references: #forge:ores/citrin (from knightsnmages-0.0.7-neo.jar), 
+[20Feb2026 05:19:44.701] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:ores as it is missing following references: #forge:ores/citrin (from knightsnmages-0.0.7-neo.jar), 
 	#forge:ores/scarlet (from knightsnmages-0.0.7-neo.jar), 
 	#forge:ores/moonlight (from knightsnmages-0.0.7-neo.jar)
-[19Feb2026 18:47:24.442] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag alexsmobs:underminer_ores as it is missing following references: #forge:ores (from alexsmobs-1.22.9.jar)
-[19Feb2026 18:47:24.944] [Worker-Main-1/INFO] [commoble.looot.data.MergeableCodecDataManager/]: Beginning loading of data for data loader: looot/enchantment_name_limits
-[19Feb2026 18:47:24.949] [Worker-Main-1/INFO] [commoble.looot.data.MergeableCodecDataManager/]: Data loader for looot/enchantment_name_limits loaded 0 finalized objects
-[19Feb2026 18:47:24.949] [Worker-Main-1/INFO] [commoble.looot.data.MergeableCodecDataManager/]: Beginning loading of data for data loader: looot/namewords/prefixes
-[19Feb2026 18:47:24.953] [Worker-Main-1/INFO] [commoble.looot.data.MergeableCodecDataManager/]: Data loader for looot/namewords/prefixes loaded 0 finalized objects
-[19Feb2026 18:47:24.954] [Worker-Main-1/INFO] [commoble.looot.data.MergeableCodecDataManager/]: Beginning loading of data for data loader: looot/namewords/nouns
-[19Feb2026 18:47:24.955] [Worker-Main-1/INFO] [commoble.looot.data.MergeableCodecDataManager/]: Data loader for looot/namewords/nouns loaded 0 finalized objects
-[19Feb2026 18:47:24.957] [Worker-Main-1/INFO] [commoble.looot.data.MergeableCodecDataManager/]: Beginning loading of data for data loader: looot/namewords/suffixes
-[19Feb2026 18:47:24.963] [Worker-Main-1/INFO] [commoble.looot.data.MergeableCodecDataManager/]: Data loader for looot/namewords/suffixes loaded 0 finalized objects
-[19Feb2026 18:47:25.195] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
-[19Feb2026 18:47:25.279] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
-[19Feb2026 18:47:25.380] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:butchery:blocks/fd_chicken_cut_1_drop
+[20Feb2026 05:19:44.702] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag alexsmobs:underminer_ores as it is missing following references: #forge:ores (from alexsmobs-1.22.9.jar)
+[20Feb2026 05:19:45.026] [Worker-Main-3/INFO] [commoble.looot.data.MergeableCodecDataManager/]: Beginning loading of data for data loader: looot/enchantment_name_limits
+[20Feb2026 05:19:45.029] [Worker-Main-3/INFO] [commoble.looot.data.MergeableCodecDataManager/]: Data loader for looot/enchantment_name_limits loaded 0 finalized objects
+[20Feb2026 05:19:45.030] [Worker-Main-3/INFO] [commoble.looot.data.MergeableCodecDataManager/]: Beginning loading of data for data loader: looot/namewords/prefixes
+[20Feb2026 05:19:45.032] [Worker-Main-3/INFO] [commoble.looot.data.MergeableCodecDataManager/]: Data loader for looot/namewords/prefixes loaded 0 finalized objects
+[20Feb2026 05:19:45.033] [Worker-Main-3/INFO] [commoble.looot.data.MergeableCodecDataManager/]: Beginning loading of data for data loader: looot/namewords/nouns
+[20Feb2026 05:19:45.035] [Worker-Main-3/INFO] [commoble.looot.data.MergeableCodecDataManager/]: Data loader for looot/namewords/nouns loaded 0 finalized objects
+[20Feb2026 05:19:45.035] [Worker-Main-3/INFO] [commoble.looot.data.MergeableCodecDataManager/]: Beginning loading of data for data loader: looot/namewords/suffixes
+[20Feb2026 05:19:45.038] [Worker-Main-3/INFO] [commoble.looot.data.MergeableCodecDataManager/]: Data loader for looot/namewords/suffixes loaded 0 finalized objects
+[20Feb2026 05:19:45.344] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[20Feb2026 05:19:45.436] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+[20Feb2026 05:19:45.504] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:butchery:blocks/fd_chicken_cut_1_drop
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'butchery:chicken_foot'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -405,7 +405,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?]
-[19Feb2026 18:47:25.497] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:butchery_alexs_mobs:blocks/caiman_cut_3_drop
+[20Feb2026 05:19:45.628] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:butchery_alexs_mobs:blocks/caiman_cut_3_drop
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'butchery_alexs_mobs:rawcaimansteak'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -456,8 +456,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?]
-[19Feb2026 18:47:25.523] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
-[19Feb2026 18:47:25.654] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:butchery_alexs_mobs:blocks/caiman_cut_2_drop
+[20Feb2026 05:19:45.657] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[20Feb2026 05:19:45.736] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:butchery_alexs_mobs:blocks/caiman_cut_2_drop
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'butchery_alexs_mobs:rawcaimansteak'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -508,7 +508,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?]
-[19Feb2026 18:47:25.679] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:butchery_alexs_mobs:blocks/caiman_cut_1_drop
+[20Feb2026 05:19:45.785] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:butchery_alexs_mobs:blocks/caiman_cut_1_drop
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'butchery_alexs_mobs:rawcaimansteak'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -559,8 +559,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?]
-[19Feb2026 18:47:25.803] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_unobtainium_helmet as it's serializer returned null
-[19Feb2026 18:47:25.838] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mischief_illagers:magnetizing_magnet_recipe_2
+[20Feb2026 05:19:45.950] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_unobtainium_helmet as it's serializer returned null
+[20Feb2026 05:19:45.987] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mischief_illagers:magnetizing_magnet_recipe_2
 com.google.gson.JsonSyntaxException: Unknown item 'alexscaves:scarlet_neodymium_ingot'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -596,39 +596,39 @@ com.google.gson.JsonSyntaxException: Unknown item 'alexscaves:scarlet_neodymium_
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[19Feb2026 18:47:25.841] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
-[19Feb2026 18:47:25.841] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_smelting_invar_weapons as it's serializer returned null
-[19Feb2026 18:47:25.850] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
-[19Feb2026 18:47:25.850] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_smelting_constantan_weapons as it's serializer returned null
-[19Feb2026 18:47:25.868] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_unobtainium_boots as it's serializer returned null
-[19Feb2026 18:47:25.871] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[19Feb2026 18:47:25.878] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[19Feb2026 18:47:25.888] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
-[19Feb2026 18:47:25.889] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_blasting_constantan_weapons as it's serializer returned null
-[19Feb2026 18:47:25.892] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_unobtainium_chestplate as it's serializer returned null
-[19Feb2026 18:47:25.898] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
-[19Feb2026 18:47:25.898] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_blasting_lead_weapons as it's serializer returned null
-[19Feb2026 18:47:25.903] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/copper" Skipping...
-[19Feb2026 18:47:25.903] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:copper_nugget_from_smelting_copper_weapons as it's serializer returned null
-[19Feb2026 18:47:25.904] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
-[19Feb2026 18:47:25.904] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_smelting_tin_weapons as it's serializer returned null
-[19Feb2026 18:47:25.904] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_vibranium_chestplate as it's serializer returned null
-[19Feb2026 18:47:25.908] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_vibranium_leggings as it's serializer returned null
-[19Feb2026 18:47:25.941] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_allthemodium_helmet as it's serializer returned null
-[19Feb2026 18:47:25.943] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
-[19Feb2026 18:47:25.943] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_blasting_invar_weapons as it's serializer returned null
-[19Feb2026 18:47:25.949] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[19Feb2026 18:47:25.955] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_allthemodium_boots as it's serializer returned null
-[19Feb2026 18:47:25.963] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
-[19Feb2026 18:47:25.963] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_smelting_aluminum_weapons as it's serializer returned null
-[19Feb2026 18:47:25.968] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
-[19Feb2026 18:47:25.968] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_blasting_electrum_weapons as it's serializer returned null
-[19Feb2026 18:47:25.970] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
-[19Feb2026 18:47:25.970] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_smelting_platinum_weapons as it's serializer returned null
-[19Feb2026 18:47:25.972] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[19Feb2026 18:47:25.976] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
-[19Feb2026 18:47:25.976] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_blasting_aluminum_weapons as it's serializer returned null
-[19Feb2026 18:47:25.978] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchery:guide
+[20Feb2026 05:19:45.990] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[20Feb2026 05:19:45.990] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_smelting_invar_weapons as it's serializer returned null
+[20Feb2026 05:19:45.994] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[20Feb2026 05:19:45.994] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_smelting_constantan_weapons as it's serializer returned null
+[20Feb2026 05:19:46.013] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_unobtainium_boots as it's serializer returned null
+[20Feb2026 05:19:46.016] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[20Feb2026 05:19:46.023] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[20Feb2026 05:19:46.033] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[20Feb2026 05:19:46.033] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_blasting_constantan_weapons as it's serializer returned null
+[20Feb2026 05:19:46.036] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_unobtainium_chestplate as it's serializer returned null
+[20Feb2026 05:19:46.043] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[20Feb2026 05:19:46.043] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_blasting_lead_weapons as it's serializer returned null
+[20Feb2026 05:19:46.049] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/copper" Skipping...
+[20Feb2026 05:19:46.049] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:copper_nugget_from_smelting_copper_weapons as it's serializer returned null
+[20Feb2026 05:19:46.049] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[20Feb2026 05:19:46.049] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_smelting_tin_weapons as it's serializer returned null
+[20Feb2026 05:19:46.049] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_vibranium_chestplate as it's serializer returned null
+[20Feb2026 05:19:46.055] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_vibranium_leggings as it's serializer returned null
+[20Feb2026 05:19:46.092] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_allthemodium_helmet as it's serializer returned null
+[20Feb2026 05:19:46.094] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[20Feb2026 05:19:46.094] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_blasting_invar_weapons as it's serializer returned null
+[20Feb2026 05:19:46.099] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[20Feb2026 05:19:46.104] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_allthemodium_boots as it's serializer returned null
+[20Feb2026 05:19:46.112] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[20Feb2026 05:19:46.112] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_smelting_aluminum_weapons as it's serializer returned null
+[20Feb2026 05:19:46.116] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[20Feb2026 05:19:46.116] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_blasting_electrum_weapons as it's serializer returned null
+[20Feb2026 05:19:46.117] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[20Feb2026 05:19:46.118] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_smelting_platinum_weapons as it's serializer returned null
+[20Feb2026 05:19:46.119] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[20Feb2026 05:19:46.123] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[20Feb2026 05:19:46.123] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_blasting_aluminum_weapons as it's serializer returned null
+[20Feb2026 05:19:46.125] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchery:guide
 com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.10-universal.jar%23270!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.10-universal.jar%23270!/:?]
@@ -659,16 +659,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[19Feb2026 18:47:25.984] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
-[19Feb2026 18:47:25.984] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_blasting_bronze_weapons as it's serializer returned null
-[19Feb2026 18:47:26.001] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_allthemodium_leggings as it's serializer returned null
-[19Feb2026 18:47:26.005] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
-[19Feb2026 18:47:26.005] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_smelting_nickel_weapons as it's serializer returned null
-[19Feb2026 18:47:26.005] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
-[19Feb2026 18:47:26.006] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_smelting_electrum_weapons as it's serializer returned null
-[19Feb2026 18:47:26.014] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
-[19Feb2026 18:47:26.015] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_smelting_lead_weapons as it's serializer returned null
-[19Feb2026 18:47:26.026] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchery:shaped_book_recipe
+[20Feb2026 05:19:46.131] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[20Feb2026 05:19:46.131] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_blasting_bronze_weapons as it's serializer returned null
+[20Feb2026 05:19:46.148] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_allthemodium_leggings as it's serializer returned null
+[20Feb2026 05:19:46.152] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[20Feb2026 05:19:46.152] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_smelting_nickel_weapons as it's serializer returned null
+[20Feb2026 05:19:46.152] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[20Feb2026 05:19:46.152] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_smelting_electrum_weapons as it's serializer returned null
+[20Feb2026 05:19:46.160] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[20Feb2026 05:19:46.161] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_smelting_lead_weapons as it's serializer returned null
+[20Feb2026 05:19:46.170] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchery:shaped_book_recipe
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -695,9 +695,9 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchou
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[19Feb2026 18:47:26.033] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
-[19Feb2026 18:47:26.033] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_smelting_silver_weapons as it's serializer returned null
-[19Feb2026 18:47:26.042] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:honey_glazed_ham_block
+[20Feb2026 05:19:46.174] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
+[20Feb2026 05:19:46.175] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_smelting_silver_weapons as it's serializer returned null
+[20Feb2026 05:19:46.181] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:honey_glazed_ham_block
 com.google.gson.JsonSyntaxException: Unknown item 'butchery:smoked_ham'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -733,12 +733,12 @@ com.google.gson.JsonSyntaxException: Unknown item 'butchery:smoked_ham'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[19Feb2026 18:47:26.045] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/copper" Skipping...
-[19Feb2026 18:47:26.045] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:copper_nugget_from_blasting_copper_weapons as it's serializer returned null
-[19Feb2026 18:47:26.046] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
-[19Feb2026 18:47:26.046] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_blasting_platinum_weapons as it's serializer returned null
-[19Feb2026 18:47:26.053] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[19Feb2026 18:47:26.060] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cooking/pasta_with_meatballs
+[20Feb2026 05:19:46.183] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/copper" Skipping...
+[20Feb2026 05:19:46.183] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:copper_nugget_from_blasting_copper_weapons as it's serializer returned null
+[20Feb2026 05:19:46.183] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[20Feb2026 05:19:46.183] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_blasting_platinum_weapons as it's serializer returned null
+[20Feb2026 05:19:46.188] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[20Feb2026 05:19:46.194] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cooking/pasta_with_meatballs
 com.google.gson.JsonSyntaxException: Unknown item 'butchery:minced_beef'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -775,147 +775,80 @@ com.google.gson.JsonSyntaxException: Unknown item 'butchery:minced_beef'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[19Feb2026 18:47:26.067] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_allthemodium_chestplate as it's serializer returned null
-[19Feb2026 18:47:26.068] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
-[19Feb2026 18:47:26.069] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_smelting_bronze_weapons as it's serializer returned null
-[19Feb2026 18:47:26.095] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_unobtainium_leggings as it's serializer returned null
-[19Feb2026 18:47:26.097] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
-[19Feb2026 18:47:26.097] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_blasting_nickel_weapons as it's serializer returned null
-[19Feb2026 18:47:26.101] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_vibranium_boots as it's serializer returned null
-[19Feb2026 18:47:26.106] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_vibranium_helmet as it's serializer returned null
-[19Feb2026 18:47:26.109] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
-[19Feb2026 18:47:26.109] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_blasting_tin_weapons as it's serializer returned null
-[19Feb2026 18:47:26.110] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[19Feb2026 18:47:26.111] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[19Feb2026 18:47:26.116] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
-[19Feb2026 18:47:26.116] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_blasting_silver_weapons as it's serializer returned null
-[19Feb2026 18:47:26.124] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[19Feb2026 18:47:26.133] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 32 recipes
-[19Feb2026 18:47:26.305] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement casualness_delight:food/bobo_chicken: Task Advancement{parentId=casualness_delight:food/beef_noodles, display=net.minecraft.advancements.DisplayInfo@7ba4f98b, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@280f9919}, criteria={cabbage_bobo_chicken=net.minecraft.advancements.Criterion@6761bbd, potato_bobo_chicken=net.minecraft.advancements.Criterion@56fadb71, chicken_bobo_chicken=net.minecraft.advancements.Criterion@52d5ed70}, requirements=[[chicken_bobo_chicken, cabbage_bobo_chicken, potato_bobo_chicken]], sends_telemetry_event=false}
-[19Feb2026 18:47:26.306] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement casualness_delight:block/cheese_wheel: Task Advancement{parentId=casualness_delight:food/stargazy_pie, display=net.minecraft.advancements.DisplayInfo@5f6f4f01, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@280f9919}, criteria={cheese_wheel=net.minecraft.advancements.Criterion@580189ef, cheese_wheel_slice=net.minecraft.advancements.Criterion@7fe4e154}, requirements=[[cheese_wheel, cheese_wheel_slice]], sends_telemetry_event=false}
-[19Feb2026 18:47:26.306] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement casualness_delight:food/stargazy_pie: Task Advancement{parentId=casualness_delight:food/beef_noodles, display=net.minecraft.advancements.DisplayInfo@28ebb0a0, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@280f9919}, criteria={stargazy_pie=net.minecraft.advancements.Criterion@705d1aa8, stargazy_pie_slice=net.minecraft.advancements.Criterion@3387b6d6}, requirements=[[stargazy_pie, stargazy_pie_slice]], sends_telemetry_event=false}
-[19Feb2026 18:47:26.307] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3563 advancements
-[19Feb2026 18:47:26.327] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[19Feb2026 18:47:26.342] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[19Feb2026 18:47:26.351] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[19Feb2026 18:47:29.478] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 6.8869ms
-[19Feb2026 18:47:29.647] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[19Feb2026 18:47:29.648] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[19Feb2026 18:47:29.649] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[19Feb2026 18:47:29.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[19Feb2026 18:47:29.763] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[19Feb2026 18:47:29.799] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[19Feb2026 18:47:29.866] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19Feb2026 18:47:29.866] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[19Feb2026 18:47:29.866] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19Feb2026 18:47:29.866] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[19Feb2026 18:47:29.923] [Server thread/INFO] [Puzzles Lib/]: Loading server config for illagerinvasion
-[19Feb2026 18:47:29.924] [Thread-3/INFO] [Puzzles Lib/]: Reloading server config for illagerinvasion
-[19Feb2026 18:47:29.925] [Thread-3/INFO] [Puzzles Lib/]: Reloading server config for illagerinvasion
-[19Feb2026 18:47:30.152] [Server thread/INFO] [com.imoonday.advskills_re.util.RarityManager/]: Loaded 8 skill rarities
-[19Feb2026 18:47:30.205] [Server thread/INFO] [com.imoonday.advskills_re.util.SettingsManager/]: Loaded 96 skill settings
-[19Feb2026 18:47:30.217] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Initializing Open Parties and Claims for the server...
-[19Feb2026 18:47:30.228] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading server info!
-[19Feb2026 18:47:30.303] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading player configs...
-[19Feb2026 18:47:30.345] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded player configs!
-[19Feb2026 18:47:30.345] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading parties...
-[19Feb2026 18:47:30.346] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded parties!
-[19Feb2026 18:47:30.347] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Fixing party inconsistencies...
-[19Feb2026 18:47:30.384] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered party system for OPAC: default
-[19Feb2026 18:47:30.385] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: permission_api
-[19Feb2026 18:47:30.386] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[19Feb2026 18:47:33.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[19Feb2026 18:47:34.985] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Feb2026 18:47:35.053] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Feb2026 18:47:35.165] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Feb2026 18:47:35.170] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Feb2026 18:47:35.311] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Feb2026 18:47:35.808] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Feb2026 18:47:36.327] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Feb2026 18:47:36.810] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Feb2026 18:47:37.306] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Feb2026 18:47:37.806] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[19Feb2026 18:47:38.311] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
-[19Feb2026 18:47:38.806] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[19Feb2026 18:47:39.084] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5779 ms
-[19Feb2026 18:47:39.085] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.207s)! For help, type "help"
-[19Feb2026 18:47:39.160] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[19Feb2026 18:47:39.165] [Server thread/INFO] [com.va11halla.casualness_delight.Casualness_Delight/]: HELLO from server starting
-[19Feb2026 18:47:39.197] [Server thread/INFO] [net.veroxuniverse.knightsnmages.KnightsnMages/]: HELLO from server starting
-[19Feb2026 18:47:39.209] [Server thread/INFO] [pomkotsmechs/]: DP:{{aldebaranlegs={aldebaranlegs,450,[[80,7200,0.8,0.0,0.0,0,0.0], [90,7400,0.85,0.0,0.0,0,0.0], [100,7600,0.9,0.0,0.0,0,0.0], [110,7800,0.95,0.0,0.0,0,0.0], [120,8000,1.0,0.0,0.0,0,0.0]]}, mashu={mashu,500,[[0,0,0.0,0.0,50.0,0,0.0], [0,0,0.0,0.0,60.0,0,0.0], [0,0,0.0,0.0,70.0,0,0.0], [0,0,0.0,0.0,80.0,0,0.0], [0,0,0.0,0.0,90.0,0,0.0]]}, uguisu={uguisu,500,[[0,0,0.0,0.0,12.0,2,2.0], [0,0,0.0,0.0,14.0,2,2.0], [0,0,0.0,0.0,16.0,3,2.0], [0,0,0.0,0.0,18.0,3,2.0], [0,0,0.0,0.0,20.0,4,2.0]]}, vegalegs={vegalegs,450,[[80,3600,0.7,0.65,0.0,0,0.0], [90,3700,0.75,0.7,0.0,0,0.0], [100,3800,0.8,0.75,0.0,0,0.0], [110,3900,0.85,0.8,0.0,0,0.0], [120,4000,0.9,0.85,0.0,0,0.0]]}, vegabody={vegabody,600,[[120,0,0.0,0.0,0.0,0,0.0], [130,0,0.0,0.0,0.0,0,0.0], [140,0,0.0,0.0,0.0,0,0.0], [150,0,0.0,0.0,0.0,0,0.0], [160,0,0.0,0.0,0.0,0,0.0]]}, magazinemissile={magazinemissile,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, aldebaranbody={aldebaranbody,600,[[120,0,0.0,0.0,0.0,0,0.0], [130,0,0.0,0.0,0.0,0,0.0], [140,0,0.0,0.0,0.0,0,0.0], [150,0,0.0,0.0,0.0,0,0.0], [160,0,0.0,0.0,0.0,0,0.0]]}, circuithardlock={circuithardlock,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, jinba={jinba,500,[[0,0,0.0,0.0,11.0,0,0.0], [0,0,0.0,0.0,12.0,0,0.0], [0,0,0.0,0.0,13.0,0,0.0], [0,0,0.0,0.0,14.0,0,0.0], [0,0,0.0,0.0,15.0,0,0.0]]}, shinobazu={shinobazu,250,[[0,0,0.0,0.0,6.0,0,0.0], [0,0,0.0,0.0,6.5,0,0.0], [0,0,0.0,0.0,7.0,0,0.0], [0,0,0.0,0.0,7.5,0,0.0], [0,0,0.0,0.0,8.0,0,0.0]]}, shiga={shiga,300,[[0,0,0.0,0.0,0.0,0,0.0]]}, railslider={railslider,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, tsurugi={tsurugi,250,[[0,0,0.0,0.0,35.0,0,0.0], [0,0,0.0,0.0,40.0,0,0.0], [0,0,0.0,0.0,45.0,0,0.0], [0,0,0.0,0.0,55.0,0,0.0], [0,0,0.0,0.0,60.0,0,0.0]]}, denebarm={denebarm,150,[[20,0,0.0,0.0,0.0,0,0.0], [20,0,0.0,0.0,0.0,0,0.0], [25,0,0.0,0.0,0.0,0,0.0], [25,0,0.0,0.0,0.0,0,0.0], [30,0,0.0,0.0,0.0,0,0.0]]}, muknvalilegs={muknvalilegs,550,[[110,4600,0.6,0.4,0.0,0,0.0], [120,4700,0.65,0.45,0.0,0,0.0], [130,4800,0.7,0.5,0.0,0,0.0], [140,4900,0.75,0.55,0.0,0,0.0], [150,5000,0.85,0.7,0.0,0,0.0]]}, suwa={suwa,500,[[0,0,0.0,0.0,8.0,0,0.0], [0,0,0.0,0.0,9.0,0,0.0], [0,0,0.0,0.0,10.0,0,0.0], [0,0,0.0,0.0,11.0,0,0.0], [0,0,0.0,0.0,12.0,0,0.0]]}, muknvaliarm={muknvaliarm,400,[[60,0,0.0,0.0,0.0,0,0.0], [70,0,0.0,0.0,0.0,0,0.0], [80,0,0.0,0.0,0.0,0,0.0], [90,0,0.0,0.0,0.0,0,0.0], [100,0,0.0,0.0,0.0,0,0.0]]}, magazinerifle={magazinerifle,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, saga={saga,100,[[0,0,0.0,0.0,0.0,0,0.0]]}, circuitsoftlock={circuitsoftlock,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, muknvalibody={muknvalibody,700,[[160,0,0.0,0.0,0.0,0,0.0], [170,0,0.0,0.0,0.0,0,0.0], [180,0,0.0,0.0,0.0,0,0.0], [190,0,0.0,0.0,0.0,0,0.0], [200,0,0.0,0.0,0.0,0,0.0]]}, vegaarm={vegaarm,300,[[60,0,0.0,0.0,0.0,0,0.0], [65,0,0.0,0.0,0.0,0,0.0], [70,0,0.0,0.0,0.0,0,0.0], [75,0,0.0,0.0,0.0,0,0.0], [80,0,0.0,0.0,0.0,0,0.0]]}, kansai={kansai,10,[[0,0,0.0,0.0,0.0,0,0.0]]}, denebhead={denebhead,75,[[5,0,0.0,0.0,0.0,0,0.0], [5,0,0.0,0.0,0.0,0,0.0], [10,0,0.0,0.0,0.0,0,0.0], [10,0,0.0,0.0,0.0,0,0.0], [15,0,0.0,0.0,0.0,0,0.0]]}, siriushead={siriushead,100,[[10,0,0.0,0.0,0.0,0,0.0], [10,0,0.0,0.0,0.0,0,0.0], [15,0,0.0,0.0,0.0,0,0.0], [15,0,0.0,0.0,0.0,0,0.0], [20,0,0.0,0.0,0.0,0,0.0]]}, hoverunit={hoverunit,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, magazinegatling={magazinegatling,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, magazinemachinegun={magazinemachinegun,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, aldebaranarm={aldebaranarm,300,[[60,0,0.0,0.0,0.0,0,0.0], [65,0,0.0,0.0,0.0,0,0.0], [70,0,0.0,0.0,0.0,0,0.0], [75,0,0.0,0.0,0.0,0,0.0], [80,0,0.0,0.0,0.0,0,0.0]]}, senzoku={senzoku,250,[[0,0,0.0,0.0,8.0,0,0.0], [0,0,0.0,0.0,9.0,0,0.0], [0,0,0.0,0.0,10.0,0,0.0], [0,0,0.0,0.0,11.0,0,0.0], [0,0,0.0,0.0,12.0,0,0.0]]}, gassan={gassan,400,[[0,0,0.0,0.0,50.0,0,0.0]]}, shakuji={shakuji,250,[[0,0,0.0,0.0,30.0,0,0.0], [0,0,0.0,0.0,33.0,0,0.0], [0,0,0.0,0.0,36.0,0,0.0], [0,0,0.0,0.0,39.0,0,0.0], [0,0,0.0,0.0,45.0,0,0.0]]}, altairbody={altairbody,400,[[60,0,0.0,0.0,0.0,0,0.0], [65,0,0.0,0.0,0.0,0,0.0], [70,0,0.0,0.0,0.0,0,0.0], [75,0,0.0,0.0,0.0,0,0.0], [80,0,0.0,0.0,0.0,0,0.0]]}, altairlegs={altairlegs,300,[[40,2300,0.8,0.8,0.0,0,0.0], [45,2350,0.85,0.85,0.0,0,0.0], [50,2400,0.9,0.9,0.0,0,0.0], [55,2450,0.95,0.95,0.0,0,0.0], [60,2500,1.0,1.0,0.0,0,0.0]]}, chiba={chiba,500,[[0,0,0.0,0.0,0.0,0,0.0]]}, magazinemissilelarge={magazinemissilelarge,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, aldebaranhead={aldebaranhead,150,[[20,0,0.0,0.0,0.0,0,0.0], [25,0,0.0,0.0,0.0,0,0.0], [30,0,0.0,0.0,0.0,0,0.0], [35,0,0.0,0.0,0.0,0,0.0], [40,0,0.0,0.0,0.0,0,0.0]]}, vegahead={vegahead,150,[[20,0,0.0,0.0,0.0,0,0.0], [25,0,0.0,0.0,0.0,0,0.0], [30,0,0.0,0.0,0.0,0,0.0], [35,0,0.0,0.0,0.0,0,0.0], [40,0,0.0,0.0,0.0,0,0.0]]}, pellet={pellet,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, kagami={kagami,500,[[0,0,0.0,0.0,32.0,0,0.0], [0,0,0.0,0.0,34.0,0,0.0], [0,0,0.0,0.0,36.0,0,0.0], [0,0,0.0,0.0,38.0,0,0.0], [0,0,0.0,0.0,40.0,0,0.0]]}, narita={narita,30,[[0,0,0.0,0.0,0.0,0,0.0]]}, mukudori={mukudori,500,[[0,0,0.0,0.0,12.0,2,2.0], [0,0,0.0,0.0,14.0,3,2.0], [0,0,0.0,0.0,16.0,4,2.0], [0,0,0.0,0.0,18.0,5,2.0], [0,0,0.0,0.0,20.0,6,2.0]]}, takao={takao,400,[[0,0,0.0,0.0,40.0,0,0.0], [0,0,0.0,0.0,45.0,0,0.0], [0,0,0.0,0.0,50.0,0,0.0], [0,0,0.0,0.0,55.0,0,0.0], [0,0,0.0,0.0,60.0,0,0.0]]}, muknvalihead={muknvalihead,170,[[40,0,0.0,0.0,0.0,0,0.0], [50,0,0.0,0.0,0.0,0,0.0], [60,0,0.0,0.0,0.0,0,0.0], [70,0,0.0,0.0,0.0,0,0.0], [80,0,0.0,0.0,0.0,0,0.0]]}, nosuri={nosuri,250,[[0,0,0.0,0.0,12.0,2,2.0], [0,0,0.0,0.0,14.0,3,2.0], [0,0,0.0,0.0,16.0,4,2.0], [0,0,0.0,0.0,18.0,5,2.0], [0,0,0.0,0.0,20.0,6,2.0]]}, denebbody={denebbody,300,[[35,0,0.0,0.0,0.0,0,0.0], [40,0,0.0,0.0,0.0,0,0.0], [45,0,0.0,0.0,0.0,0,0.0], [55,0,0.0,0.0,0.0,0,0.0], [60,0,0.0,0.0,0.0,0,0.0]]}, siriusbody={siriusbody,400,[[60,0,0.0,0.0,0.0,0,0.0], [65,0,0.0,0.0,0.0,0,0.0], [70,0,0.0,0.0,0.0,0,0.0], [75,0,0.0,0.0,0.0,0,0.0], [80,0,0.0,0.0,0.0,0,0.0]]}, siriuslegs={siriuslegs,300,[[40,1800,0.9,1.8,0.0,0,0.0], [45,1850,0.95,1.85,0.0,0,0.0], [50,1900,1.0,1.9,0.0,0,0.0], [55,1950,1.05,1.95,0.0,0,0.0], [60,2000,1.1,2.0,0.0,0,0.0]]}, siriusarm={siriusarm,200,[[30,0,0.0,0.0,0.0,0,0.0], [30,0,0.0,0.0,0.0,0,0.0], [35,0,0.0,0.0,0.0,0,0.0], [35,0,0.0,0.0,0.0,0,0.0], [40,0,0.0,0.0,0.0,0,0.0]]}, kagenobu={kagenobu,400,[[0,0,0.0,0.0,60.0,0,0.0], [0,0,0.0,0.0,65.0,0,0.0], [0,0,0.0,0.0,70.0,0,0.0], [0,0,0.0,0.0,75.0,0,0.0], [0,0,0.0,0.0,80.0,0,0.0]]}, haneda={haneda,50,[[0,0,0.0,0.0,0.0,0,0.0]]}, kasumi={kasumi,500,[[0,0,0.0,0.0,8.0,0,0.0], [0,0,0.0,0.0,9.0,0,0.0], [0,0,0.0,0.0,10.0,0,0.0], [0,0,0.0,0.0,11.0,0,0.0], [0,0,0.0,0.0,12.0,0,0.0]]}, altairarm={altairarm,200,[[30,0,0.0,0.0,0.0,0,0.0], [30,0,0.0,0.0,0.0,0,0.0], [35,0,0.0,0.0,0.0,0,0.0], [35,0,0.0,0.0,0.0,0,0.0], [40,0,0.0,0.0,0.0,0,0.0]]}, kawasemi={kawasemi,250,[[0,0,0.0,0.0,12.0,2,2.0], [0,0,0.0,0.0,14.0,2,2.0], [0,0,0.0,0.0,16.0,3,2.0], [0,0,0.0,0.0,18.0,3,2.0], [0,0,0.0,0.0,20.0,4,2.0]]}, dodo={dodo,2000,[[0,0,0.0,0.0,120.0,1,2.0], [0,0,0.0,0.0,140.0,1,2.0], [0,0,0.0,0.0,160.0,1,2.0], [0,0,0.0,0.0,180.0,1,2.0], [0,0,0.0,0.0,200.0,1,2.0]]}, altairhead={altairhead,100,[[10,0,0.0,0.0,0.0,0,0.0], [10,0,0.0,0.0,0.0,0,0.0], [15,0,0.0,0.0,0.0,0,0.0], [15,0,0.0,0.0,0.0,0,0.0], [20,0,0.0,0.0,0.0,0,0.0]]}, magazineshotgun={magazineshotgun,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, magazinegrenade={magazinegrenade,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, deneblegs={deneblegs,225,[[35,1800,1.0,0.9,0.0,0,0.0], [35,1850,1.05,0.95,0.0,0,0.0], [40,1900,1.1,1.0,0.0,0,0.0], [40,1950,1.15,1.05,0.0,0,0.0], [45,2000,1.2,1.1,0.0,0,0.0]]}, biwa={biwa,500,[[0,0,0.0,0.0,32.0,0,0.0], [0,0,0.0,0.0,34.0,0,0.0], [0,0,0.0,0.0,36.0,0,0.0], [0,0,0.0,0.0,38.0,0,0.0], [0,0,0.0,0.0,40.0,0,0.0]]}},{pms07={pms07,200.0,20.0}, pms06={pms06,200.0,20.0}, pms09={pms09,50.0,20.0}, pms08={pms08,20.0,20.0}, pms03={pms03,150.0,20.0}, pmt02={pmt02,200.0,20.0}, pms02={pms02,50.0,20.0}, pmt01={pmt01,200.0,20.0}, pms05={pms05,200.0,20.0}, pmt04={pmt04,200.0,20.0}, pms04={pms04,150.0,20.0}, pmt03={pmt03,200.0,20.0}, pms01={pms01,150.0,20.0}, pmb01mk2={pmb01mk2,1024.0,20.0}, pmb04={pmb04,768.0,20.0}, pmb03={pmb03,512.0,20.0}, full_template={full_template,150.0,20.0}, pmb06={pmb06,1024.0,20.0}, pmb05={pmb05,1024.0,20.0}, pmb02={pmb02,768.0,20.0}, pmb01={pmb01,1024.0,20.0}}}
-[19Feb2026 18:47:39.212] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading claims...
-[19Feb2026 18:47:39.217] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded claims in 5ms
-[19Feb2026 18:47:39.218] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured permission system "prometheus" isn't registered!
-[19Feb2026 18:47:39.218] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following permission system: permission_api
-[19Feb2026 18:47:39.218] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured primary party system "argonauts_guilds" isn't registered!
-[19Feb2026 18:47:39.219] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following party system as primary: default
-[19Feb2026 18:47:39.221] [Server thread/INFO] [com.imoonday.advskills_re.config.SkillConfig/]: Loading advskills_re-server configuration file
-[19Feb2026 18:47:39.472] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size: 515482 bytes (uncompressed), 16516 bytes (compressed), compression ratio: 96.8% (in 2 string chunks with the size of 10000)
-[19Feb2026 18:47:39.485] [Server thread/INFO] [mixin/]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.status.ServerStatus
-[19Feb2026 18:49:19.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[19Feb2026 18:49:19.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: version<--[HERE]
-[19Feb2026 18:49:22.467] [Netty Epoll Server IO #1/INFO] [mixin/]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatCommandPacket
-[19Feb2026 18:49:22.469] [Netty Epoll Server IO #1/INFO] [mixin/]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatPacket
-[19Feb2026 18:49:22.471] [Netty Epoll Server IO #1/INFO] [mixin/]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatSessionUpdatePacket
-[19Feb2026 18:49:29.291] [ForkJoinPool.commonPool-worker-4/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent org/mineskin/request/AbstractRequestBuilder for class org/mineskin/request/UrlRequestBuilderImpl in classloader jdk.internal.loader.ClassLoaders$AppClassLoader@28a418fc on thread Thread[#87,ForkJoinPool.commonPool-worker-4,5,InnocuousForkJoinWorkerThreadGroup]
-[19Feb2026 18:49:29.291] [ForkJoinPool.commonPool-worker-4/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
-java.lang.ClassNotFoundException: org.mineskin.request.AbstractRequestBuilder
-	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580) ~[?:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
-	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:97) ~[eventbus-6.0.5.jar%2352!/:?]
-	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:48) ~[eventbus-6.0.5.jar%2352!/:?]
-	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.5.jar%2352!/:?]
-	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.5.jar%2352!/:6.0.5+6.0.5+master.eb8e549b]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
-	at org.mineskin.request.GenerateRequest.url(GenerateRequest.java:39) ~[?:?]
-	at org.mineskin.request.GenerateRequest.url(GenerateRequest.java:43) ~[?:?]
-	at net.lionarius.skinrestorer.skin.provider.MineskinSkinProvider.loadSkin(MineskinSkinProvider.java:110) ~[?:?]
-	at net.lionarius.skinrestorer.skin.provider.MineskinSkinProvider$1.load(MineskinSkinProvider.java:71) ~[?:?]
-	at net.lionarius.skinrestorer.skin.provider.MineskinSkinProvider$1.load(MineskinSkinProvider.java:68) ~[?:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3533) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2282) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2159) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2049) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:3966) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3989) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4950) ~[guava-31.1-jre.jar%2374!/:?]
-	at net.lionarius.skinrestorer.skin.provider.MineskinSkinProvider.fetchSkin(MineskinSkinProvider.java:91) ~[?:?]
-	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md87e785$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:589) ~[?:?]
-	at java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:588) ~[?:?]
-	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md87e785$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:555) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1781) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?]
-[19Feb2026 18:49:32.685] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[19Feb2026 18:49:32.786] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Brodhan_id[/127.236.181.106:57855] logged in with entity id 64 at (-17737.370114262303, 7.0, 17548.184141991227)
-[19Feb2026 18:49:32.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Brodhan_id joined the game
-[19Feb2026 18:49:33.017] [Server thread/INFO] [Jade/]: Syncing config to Brodhan_id (bbfe8a5d-fb20-30c0-8128-eab82e8e8138)
-[19Feb2026 18:49:33.019] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for bbfe8a5d-fb20-30c0-8128-eab82e8e8138
-[19Feb2026 18:49:48.314] [Worker-Main-11/INFO] [citadel/]: vanilla surface rule behavior unchanged
-[19Feb2026 18:52:43.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[19Feb2026 18:52:43.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[19Feb2026 18:52:43.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[19Feb2026 18:52:43.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[19Feb2026 18:52:43.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19Feb2026 18:52:43.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19Feb2026 18:52:43.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[19Feb2026 18:52:44.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19Feb2026 18:52:44.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19Feb2026 18:52:44.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19Feb2026 18:52:44.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[19Feb2026 18:52:44.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19Feb2026 18:52:44.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19Feb2026 18:52:44.553] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopping IO worker...
-[19Feb2026 18:52:44.555] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopped IO worker!
+[20Feb2026 05:19:46.199] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_allthemodium_chestplate as it's serializer returned null
+[20Feb2026 05:19:46.199] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[20Feb2026 05:19:46.199] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_smelting_bronze_weapons as it's serializer returned null
+[20Feb2026 05:19:46.220] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_unobtainium_leggings as it's serializer returned null
+[20Feb2026 05:19:46.221] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[20Feb2026 05:19:46.221] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_blasting_nickel_weapons as it's serializer returned null
+[20Feb2026 05:19:46.224] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_vibranium_boots as it's serializer returned null
+[20Feb2026 05:19:46.228] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe knightsnmages:smithing_vibranium_helmet as it's serializer returned null
+[20Feb2026 05:19:46.231] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[20Feb2026 05:19:46.231] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_blasting_tin_weapons as it's serializer returned null
+[20Feb2026 05:19:46.231] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[20Feb2026 05:19:46.232] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[20Feb2026 05:19:46.237] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
+[20Feb2026 05:19:46.237] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_blasting_silver_weapons as it's serializer returned null
+[20Feb2026 05:19:46.240] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[20Feb2026 05:19:46.246] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 32 recipes
+[20Feb2026 05:19:46.398] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement casualness_delight:food/bobo_chicken: Task Advancement{parentId=casualness_delight:food/beef_noodles, display=net.minecraft.advancements.DisplayInfo@2e461393, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@1219a2e5}, criteria={cabbage_bobo_chicken=net.minecraft.advancements.Criterion@eb401d5, potato_bobo_chicken=net.minecraft.advancements.Criterion@5915b163, chicken_bobo_chicken=net.minecraft.advancements.Criterion@18cea7bc}, requirements=[[chicken_bobo_chicken, cabbage_bobo_chicken, potato_bobo_chicken]], sends_telemetry_event=false}
+[20Feb2026 05:19:46.398] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement casualness_delight:block/cheese_wheel: Task Advancement{parentId=casualness_delight:food/stargazy_pie, display=net.minecraft.advancements.DisplayInfo@427b0848, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@1219a2e5}, criteria={cheese_wheel=net.minecraft.advancements.Criterion@443085a6, cheese_wheel_slice=net.minecraft.advancements.Criterion@2d2a5858}, requirements=[[cheese_wheel, cheese_wheel_slice]], sends_telemetry_event=false}
+[20Feb2026 05:19:46.398] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement casualness_delight:food/stargazy_pie: Task Advancement{parentId=casualness_delight:food/beef_noodles, display=net.minecraft.advancements.DisplayInfo@5a0df867, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@1219a2e5}, criteria={stargazy_pie=net.minecraft.advancements.Criterion@251a83e6, stargazy_pie_slice=net.minecraft.advancements.Criterion@3ce1d7d7}, requirements=[[stargazy_pie, stargazy_pie_slice]], sends_telemetry_event=false}
+[20Feb2026 05:19:46.398] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3563 advancements
+[20Feb2026 05:19:46.413] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[20Feb2026 05:19:46.430] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[20Feb2026 05:19:46.437] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[20Feb2026 05:19:49.441] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 6.724388ms
+[20Feb2026 05:19:49.584] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[20Feb2026 05:19:49.584] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[20Feb2026 05:19:49.585] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[20Feb2026 05:19:49.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Feb2026 05:19:49.687] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[20Feb2026 05:19:49.713] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[20Feb2026 05:19:49.787] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20Feb2026 05:19:49.787] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[20Feb2026 05:19:49.787] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20Feb2026 05:19:49.787] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[20Feb2026 05:19:49.826] [Server thread/INFO] [Puzzles Lib/]: Loading server config for illagerinvasion
+[20Feb2026 05:19:49.827] [Thread-3/INFO] [Puzzles Lib/]: Reloading server config for illagerinvasion
+[20Feb2026 05:19:49.828] [Thread-3/INFO] [Puzzles Lib/]: Reloading server config for illagerinvasion
+[20Feb2026 05:19:50.015] [Server thread/INFO] [com.imoonday.advskills_re.util.RarityManager/]: Loaded 8 skill rarities
+[20Feb2026 05:19:50.058] [Server thread/INFO] [com.imoonday.advskills_re.util.SettingsManager/]: Loaded 96 skill settings
+[20Feb2026 05:19:50.072] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Initializing Open Parties and Claims for the server...
+[20Feb2026 05:19:50.086] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading server info!
+[20Feb2026 05:19:50.144] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading player configs...
+[20Feb2026 05:19:50.175] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded player configs!
+[20Feb2026 05:19:50.176] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading parties...
+[20Feb2026 05:19:50.177] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded parties!
+[20Feb2026 05:19:50.178] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Fixing party inconsistencies...
+[20Feb2026 05:19:50.224] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered party system for OPAC: default
+[20Feb2026 05:19:50.225] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: permission_api
+[20Feb2026 05:19:50.227] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[20Feb2026 05:19:53.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Feb2026 05:19:56.026] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Feb2026 05:19:56.041] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Feb2026 05:19:56.057] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Feb2026 05:19:56.068] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Feb2026 05:19:56.078] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Feb2026 05:19:56.080] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Feb2026 05:19:56.272] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Feb2026 05:19:56.773] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Feb2026 05:19:57.272] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Feb2026 05:19:57.771] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Feb2026 05:19:58.274] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
+[20Feb2026 05:19:58.772] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[20Feb2026 05:19:58.923] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5653 ms
+[20Feb2026 05:19:58.925] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.105s)! For help, type "help"
+[20Feb2026 05:19:59.039] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20Feb2026 05:19:59.087] [Server thread/INFO] [com.va11halla.casualness_delight.Casualness_Delight/]: HELLO from server starting
+[20Feb2026 05:19:59.093] [Server thread/INFO] [net.veroxuniverse.knightsnmages.KnightsnMages/]: HELLO from server starting
+[20Feb2026 05:19:59.113] [Server thread/INFO] [pomkotsmechs/]: DP:{{aldebaranlegs={aldebaranlegs,450,[[80,7200,0.8,0.0,0.0,0,0.0], [90,7400,0.85,0.0,0.0,0,0.0], [100,7600,0.9,0.0,0.0,0,0.0], [110,7800,0.95,0.0,0.0,0,0.0], [120,8000,1.0,0.0,0.0,0,0.0]]}, mashu={mashu,500,[[0,0,0.0,0.0,50.0,0,0.0], [0,0,0.0,0.0,60.0,0,0.0], [0,0,0.0,0.0,70.0,0,0.0], [0,0,0.0,0.0,80.0,0,0.0], [0,0,0.0,0.0,90.0,0,0.0]]}, uguisu={uguisu,500,[[0,0,0.0,0.0,12.0,2,2.0], [0,0,0.0,0.0,14.0,2,2.0], [0,0,0.0,0.0,16.0,3,2.0], [0,0,0.0,0.0,18.0,3,2.0], [0,0,0.0,0.0,20.0,4,2.0]]}, vegalegs={vegalegs,450,[[80,3600,0.7,0.65,0.0,0,0.0], [90,3700,0.75,0.7,0.0,0,0.0], [100,3800,0.8,0.75,0.0,0,0.0], [110,3900,0.85,0.8,0.0,0,0.0], [120,4000,0.9,0.85,0.0,0,0.0]]}, vegabody={vegabody,600,[[120,0,0.0,0.0,0.0,0,0.0], [130,0,0.0,0.0,0.0,0,0.0], [140,0,0.0,0.0,0.0,0,0.0], [150,0,0.0,0.0,0.0,0,0.0], [160,0,0.0,0.0,0.0,0,0.0]]}, magazinemissile={magazinemissile,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, aldebaranbody={aldebaranbody,600,[[120,0,0.0,0.0,0.0,0,0.0], [130,0,0.0,0.0,0.0,0,0.0], [140,0,0.0,0.0,0.0,0,0.0], [150,0,0.0,0.0,0.0,0,0.0], [160,0,0.0,0.0,0.0,0,0.0]]}, circuithardlock={circuithardlock,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, jinba={jinba,500,[[0,0,0.0,0.0,11.0,0,0.0], [0,0,0.0,0.0,12.0,0,0.0], [0,0,0.0,0.0,13.0,0,0.0], [0,0,0.0,0.0,14.0,0,0.0], [0,0,0.0,0.0,15.0,0,0.0]]}, shinobazu={shinobazu,250,[[0,0,0.0,0.0,6.0,0,0.0], [0,0,0.0,0.0,6.5,0,0.0], [0,0,0.0,0.0,7.0,0,0.0], [0,0,0.0,0.0,7.5,0,0.0], [0,0,0.0,0.0,8.0,0,0.0]]}, shiga={shiga,300,[[0,0,0.0,0.0,0.0,0,0.0]]}, railslider={railslider,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, tsurugi={tsurugi,250,[[0,0,0.0,0.0,35.0,0,0.0], [0,0,0.0,0.0,40.0,0,0.0], [0,0,0.0,0.0,45.0,0,0.0], [0,0,0.0,0.0,55.0,0,0.0], [0,0,0.0,0.0,60.0,0,0.0]]}, denebarm={denebarm,150,[[20,0,0.0,0.0,0.0,0,0.0], [20,0,0.0,0.0,0.0,0,0.0], [25,0,0.0,0.0,0.0,0,0.0], [25,0,0.0,0.0,0.0,0,0.0], [30,0,0.0,0.0,0.0,0,0.0]]}, muknvalilegs={muknvalilegs,550,[[110,4600,0.6,0.4,0.0,0,0.0], [120,4700,0.65,0.45,0.0,0,0.0], [130,4800,0.7,0.5,0.0,0,0.0], [140,4900,0.75,0.55,0.0,0,0.0], [150,5000,0.85,0.7,0.0,0,0.0]]}, suwa={suwa,500,[[0,0,0.0,0.0,8.0,0,0.0], [0,0,0.0,0.0,9.0,0,0.0], [0,0,0.0,0.0,10.0,0,0.0], [0,0,0.0,0.0,11.0,0,0.0], [0,0,0.0,0.0,12.0,0,0.0]]}, muknvaliarm={muknvaliarm,400,[[60,0,0.0,0.0,0.0,0,0.0], [70,0,0.0,0.0,0.0,0,0.0], [80,0,0.0,0.0,0.0,0,0.0], [90,0,0.0,0.0,0.0,0,0.0], [100,0,0.0,0.0,0.0,0,0.0]]}, magazinerifle={magazinerifle,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, saga={saga,100,[[0,0,0.0,0.0,0.0,0,0.0]]}, circuitsoftlock={circuitsoftlock,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, muknvalibody={muknvalibody,700,[[160,0,0.0,0.0,0.0,0,0.0], [170,0,0.0,0.0,0.0,0,0.0], [180,0,0.0,0.0,0.0,0,0.0], [190,0,0.0,0.0,0.0,0,0.0], [200,0,0.0,0.0,0.0,0,0.0]]}, vegaarm={vegaarm,300,[[60,0,0.0,0.0,0.0,0,0.0], [65,0,0.0,0.0,0.0,0,0.0], [70,0,0.0,0.0,0.0,0,0.0], [75,0,0.0,0.0,0.0,0,0.0], [80,0,0.0,0.0,0.0,0,0.0]]}, kansai={kansai,10,[[0,0,0.0,0.0,0.0,0,0.0]]}, denebhead={denebhead,75,[[5,0,0.0,0.0,0.0,0,0.0], [5,0,0.0,0.0,0.0,0,0.0], [10,0,0.0,0.0,0.0,0,0.0], [10,0,0.0,0.0,0.0,0,0.0], [15,0,0.0,0.0,0.0,0,0.0]]}, siriushead={siriushead,100,[[10,0,0.0,0.0,0.0,0,0.0], [10,0,0.0,0.0,0.0,0,0.0], [15,0,0.0,0.0,0.0,0,0.0], [15,0,0.0,0.0,0.0,0,0.0], [20,0,0.0,0.0,0.0,0,0.0]]}, hoverunit={hoverunit,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, magazinegatling={magazinegatling,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, magazinemachinegun={magazinemachinegun,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, aldebaranarm={aldebaranarm,300,[[60,0,0.0,0.0,0.0,0,0.0], [65,0,0.0,0.0,0.0,0,0.0], [70,0,0.0,0.0,0.0,0,0.0], [75,0,0.0,0.0,0.0,0,0.0], [80,0,0.0,0.0,0.0,0,0.0]]}, senzoku={senzoku,250,[[0,0,0.0,0.0,8.0,0,0.0], [0,0,0.0,0.0,9.0,0,0.0], [0,0,0.0,0.0,10.0,0,0.0], [0,0,0.0,0.0,11.0,0,0.0], [0,0,0.0,0.0,12.0,0,0.0]]}, gassan={gassan,400,[[0,0,0.0,0.0,50.0,0,0.0]]}, shakuji={shakuji,250,[[0,0,0.0,0.0,30.0,0,0.0], [0,0,0.0,0.0,33.0,0,0.0], [0,0,0.0,0.0,36.0,0,0.0], [0,0,0.0,0.0,39.0,0,0.0], [0,0,0.0,0.0,45.0,0,0.0]]}, altairbody={altairbody,400,[[60,0,0.0,0.0,0.0,0,0.0], [65,0,0.0,0.0,0.0,0,0.0], [70,0,0.0,0.0,0.0,0,0.0], [75,0,0.0,0.0,0.0,0,0.0], [80,0,0.0,0.0,0.0,0,0.0]]}, altairlegs={altairlegs,300,[[40,2300,0.8,0.8,0.0,0,0.0], [45,2350,0.85,0.85,0.0,0,0.0], [50,2400,0.9,0.9,0.0,0,0.0], [55,2450,0.95,0.95,0.0,0,0.0], [60,2500,1.0,1.0,0.0,0,0.0]]}, chiba={chiba,500,[[0,0,0.0,0.0,0.0,0,0.0]]}, magazinemissilelarge={magazinemissilelarge,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, aldebaranhead={aldebaranhead,150,[[20,0,0.0,0.0,0.0,0,0.0], [25,0,0.0,0.0,0.0,0,0.0], [30,0,0.0,0.0,0.0,0,0.0], [35,0,0.0,0.0,0.0,0,0.0], [40,0,0.0,0.0,0.0,0,0.0]]}, vegahead={vegahead,150,[[20,0,0.0,0.0,0.0,0,0.0], [25,0,0.0,0.0,0.0,0,0.0], [30,0,0.0,0.0,0.0,0,0.0], [35,0,0.0,0.0,0.0,0,0.0], [40,0,0.0,0.0,0.0,0,0.0]]}, pellet={pellet,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, kagami={kagami,500,[[0,0,0.0,0.0,32.0,0,0.0], [0,0,0.0,0.0,34.0,0,0.0], [0,0,0.0,0.0,36.0,0,0.0], [0,0,0.0,0.0,38.0,0,0.0], [0,0,0.0,0.0,40.0,0,0.0]]}, narita={narita,30,[[0,0,0.0,0.0,0.0,0,0.0]]}, mukudori={mukudori,500,[[0,0,0.0,0.0,12.0,2,2.0], [0,0,0.0,0.0,14.0,3,2.0], [0,0,0.0,0.0,16.0,4,2.0], [0,0,0.0,0.0,18.0,5,2.0], [0,0,0.0,0.0,20.0,6,2.0]]}, takao={takao,400,[[0,0,0.0,0.0,40.0,0,0.0], [0,0,0.0,0.0,45.0,0,0.0], [0,0,0.0,0.0,50.0,0,0.0], [0,0,0.0,0.0,55.0,0,0.0], [0,0,0.0,0.0,60.0,0,0.0]]}, muknvalihead={muknvalihead,170,[[40,0,0.0,0.0,0.0,0,0.0], [50,0,0.0,0.0,0.0,0,0.0], [60,0,0.0,0.0,0.0,0,0.0], [70,0,0.0,0.0,0.0,0,0.0], [80,0,0.0,0.0,0.0,0,0.0]]}, nosuri={nosuri,250,[[0,0,0.0,0.0,12.0,2,2.0], [0,0,0.0,0.0,14.0,3,2.0], [0,0,0.0,0.0,16.0,4,2.0], [0,0,0.0,0.0,18.0,5,2.0], [0,0,0.0,0.0,20.0,6,2.0]]}, denebbody={denebbody,300,[[35,0,0.0,0.0,0.0,0,0.0], [40,0,0.0,0.0,0.0,0,0.0], [45,0,0.0,0.0,0.0,0,0.0], [55,0,0.0,0.0,0.0,0,0.0], [60,0,0.0,0.0,0.0,0,0.0]]}, siriusbody={siriusbody,400,[[60,0,0.0,0.0,0.0,0,0.0], [65,0,0.0,0.0,0.0,0,0.0], [70,0,0.0,0.0,0.0,0,0.0], [75,0,0.0,0.0,0.0,0,0.0], [80,0,0.0,0.0,0.0,0,0.0]]}, siriuslegs={siriuslegs,300,[[40,1800,0.9,1.8,0.0,0,0.0], [45,1850,0.95,1.85,0.0,0,0.0], [50,1900,1.0,1.9,0.0,0,0.0], [55,1950,1.05,1.95,0.0,0,0.0], [60,2000,1.1,2.0,0.0,0,0.0]]}, siriusarm={siriusarm,200,[[30,0,0.0,0.0,0.0,0,0.0], [30,0,0.0,0.0,0.0,0,0.0], [35,0,0.0,0.0,0.0,0,0.0], [35,0,0.0,0.0,0.0,0,0.0], [40,0,0.0,0.0,0.0,0,0.0]]}, kagenobu={kagenobu,400,[[0,0,0.0,0.0,60.0,0,0.0], [0,0,0.0,0.0,65.0,0,0.0], [0,0,0.0,0.0,70.0,0,0.0], [0,0,0.0,0.0,75.0,0,0.0], [0,0,0.0,0.0,80.0,0,0.0]]}, haneda={haneda,50,[[0,0,0.0,0.0,0.0,0,0.0]]}, kasumi={kasumi,500,[[0,0,0.0,0.0,8.0,0,0.0], [0,0,0.0,0.0,9.0,0,0.0], [0,0,0.0,0.0,10.0,0,0.0], [0,0,0.0,0.0,11.0,0,0.0], [0,0,0.0,0.0,12.0,0,0.0]]}, altairarm={altairarm,200,[[30,0,0.0,0.0,0.0,0,0.0], [30,0,0.0,0.0,0.0,0,0.0], [35,0,0.0,0.0,0.0,0,0.0], [35,0,0.0,0.0,0.0,0,0.0], [40,0,0.0,0.0,0.0,0,0.0]]}, kawasemi={kawasemi,250,[[0,0,0.0,0.0,12.0,2,2.0], [0,0,0.0,0.0,14.0,2,2.0], [0,0,0.0,0.0,16.0,3,2.0], [0,0,0.0,0.0,18.0,3,2.0], [0,0,0.0,0.0,20.0,4,2.0]]}, dodo={dodo,2000,[[0,0,0.0,0.0,120.0,1,2.0], [0,0,0.0,0.0,140.0,1,2.0], [0,0,0.0,0.0,160.0,1,2.0], [0,0,0.0,0.0,180.0,1,2.0], [0,0,0.0,0.0,200.0,1,2.0]]}, altairhead={altairhead,100,[[10,0,0.0,0.0,0.0,0,0.0], [10,0,0.0,0.0,0.0,0,0.0], [15,0,0.0,0.0,0.0,0,0.0], [15,0,0.0,0.0,0.0,0,0.0], [20,0,0.0,0.0,0.0,0,0.0]]}, magazineshotgun={magazineshotgun,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, magazinegrenade={magazinegrenade,0,[[0,0,0.0,0.0,0.0,0,0.0]]}, deneblegs={deneblegs,225,[[35,1800,1.0,0.9,0.0,0,0.0], [35,1850,1.05,0.95,0.0,0,0.0], [40,1900,1.1,1.0,0.0,0,0.0], [40,1950,1.15,1.05,0.0,0,0.0], [45,2000,1.2,1.1,0.0,0,0.0]]}, biwa={biwa,500,[[0,0,0.0,0.0,32.0,0,0.0], [0,0,0.0,0.0,34.0,0,0.0], [0,0,0.0,0.0,36.0,0,0.0], [0,0,0.0,0.0,38.0,0,0.0], [0,0,0.0,0.0,40.0,0,0.0]]}},{pms07={pms07,200.0,20.0}, pms06={pms06,200.0,20.0}, pms09={pms09,50.0,20.0}, pms08={pms08,20.0,20.0}, pms03={pms03,150.0,20.0}, pmt02={pmt02,200.0,20.0}, pms02={pms02,50.0,20.0}, pmt01={pmt01,200.0,20.0}, pms05={pms05,200.0,20.0}, pmt04={pmt04,200.0,20.0}, pms04={pms04,150.0,20.0}, pmt03={pmt03,200.0,20.0}, pms01={pms01,150.0,20.0}, pmb01mk2={pmb01mk2,1024.0,20.0}, pmb04={pmb04,768.0,20.0}, pmb03={pmb03,512.0,20.0}, full_template={full_template,150.0,20.0}, pmb06={pmb06,1024.0,20.0}, pmb05={pmb05,1024.0,20.0}, pmb02={pmb02,768.0,20.0}, pmb01={pmb01,1024.0,20.0}}}
+[20Feb2026 05:19:59.116] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading claims...
+[20Feb2026 05:19:59.125] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded claims in 9ms
+[20Feb2026 05:19:59.126] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured permission system "prometheus" isn't registered!
+[20Feb2026 05:19:59.127] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following permission system: permission_api
+[20Feb2026 05:19:59.128] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured primary party system "argonauts_guilds" isn't registered!
+[20Feb2026 05:19:59.128] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following party system as primary: default
+[20Feb2026 05:19:59.131] [Server thread/INFO] [com.imoonday.advskills_re.config.SkillConfig/]: Loading advskills_re-server configuration file
+[20Feb2026 05:19:59.329] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size: 515482 bytes (uncompressed), 16516 bytes (compressed), compression ratio: 96.8% (in 2 string chunks with the size of 10000)
+[20Feb2026 05:19:59.341] [Server thread/INFO] [mixin/]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.status.ServerStatus

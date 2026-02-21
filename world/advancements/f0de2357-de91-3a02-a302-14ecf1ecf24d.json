@@ -2988,6 +2988,7 @@
     "criteria": {
       "minecraft:skeleton": "2026-02-18 18:59:27 +0000",
       "minecraft:spider": "2026-02-19 01:18:12 +0000",
+      "minecraft:creeper": "2026-02-21 02:29:29 +0000",
       "minecraft:cave_spider": "2026-02-19 16:11:55 +0000",
       "minecraft:enderman": "2026-02-19 01:19:05 +0000",
       "minecraft:zombie": "2026-02-18 18:57:08 +0000"
@@ -5657,6 +5658,36 @@
   "farmersdelight:main/place_campfire": {
     "criteria": {
       "campfire": "2026-02-20 09:34:20 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:saber": {
+    "criteria": {
+      "has_saber": "2026-02-21 02:12:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2026-02-21 03:16:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-02-21 03:16:27 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/explosive_charge": {
+    "criteria": {
+      "has_gunpowder": "2026-02-21 03:16:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-02-21 03:16:27 +0000"
     },
     "done": true
   },

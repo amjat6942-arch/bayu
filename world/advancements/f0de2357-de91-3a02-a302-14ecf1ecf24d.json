@@ -5722,51 +5722,21 @@
     },
     "done": true
   },
-  "spartantwilight:recipes/steeleaf_heavy_crossbow": {
+  "twilightforest:root": {
     "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+      "in_tf": "2026-02-21 05:42:25 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/steel_spear": {
+  "twilightforest:twilight_hunter": {
     "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+      "kobold": "2026-02-21 05:44:00 +0000"
     },
     "done": true
   },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_planks": "2026-02-21 05:47:56 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_longbow": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
-    },
-    "done": true
-  },
-  "spartantwilight:recipes/steeleaf_parrying_dagger": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:scythe": {
-    "criteria": {
-      "has_scythe": "2026-02-21 06:30:20 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/roast_chicken_block": {
-    "criteria": {
-      "has_cooked_chicken": "2026-02-21 05:55:44 +0000"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/magic_map_focus": {
-    "criteria": {
-      "has_berries": "2026-02-21 06:43:47 +0000"
     },
     "done": true
   },
@@ -5777,58 +5747,10 @@
     },
     "done": true
   },
-  "spartantwilight:recipes/steeleaf_longsword": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2026-02-21 06:55:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2026-02-21 06:38:32 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_halberd": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
-    },
-    "done": true
-  },
-  "spartantwilight:recipes/steeleaf_boomerang": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "spartantwilight:recipes/steeleaf_battleaxe": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_scythe": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
-    },
-    "done": true
-  },
   "mcwwindows:recipes/parapets": {
     "criteria": {
       "has_wood": "2026-02-21 05:47:56 +0000",
       "has_the_recipe": "2026-02-21 05:47:56 +0000"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/misc/steeleaf_knife": {
-    "criteria": {
-      "has_steeleaf_ingot": "2026-02-21 06:54:59 +0000"
     },
     "done": true
   },
@@ -5838,51 +5760,9 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/steel_throwing_knife": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:spear": {
-    "criteria": {
-      "has_spear": "2026-02-21 06:30:50 +0000"
-    },
-    "done": true
-  },
-  "spartantwilight:recipes/steeleaf_warhammer": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_parrying_dagger": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
-    },
-    "done": true
-  },
-  "spartantwilight:recipes/steeleaf_longbow": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2026-02-21 05:47:56 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:parrying_dagger": {
-    "criteria": {
-      "has_parrying_dagger": "2026-02-21 06:32:04 +0000"
-    },
-    "done": true
-  },
-  "spartantwilight:recipes/steeleaf_quarterstaff": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
     },
     "done": true
   },
@@ -5892,33 +5772,9 @@
     },
     "done": true
   },
-  "spartantwilight:recipes/steeleaf_spear": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_boomerang": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2026-02-21 05:47:56 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_warhammer": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_longsword": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
     },
     "done": true
   },
@@ -5928,45 +5784,9 @@
     },
     "done": true
   },
-  "spartantwilight:recipes/steeleaf_throwing_knife": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2026-02-21 05:47:56 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_rapier": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_saber": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
-    },
-    "done": true
-  },
-  "spartantwilight:recipes/steeleaf_halberd": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_flanged_mace": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/misc/torchberries_crate": {
-    "criteria": {
-      "has_torchberries": "2026-02-21 06:43:47 +0000"
     },
     "done": true
   },
@@ -5979,42 +5799,6 @@
   "mca:recipes/decorations/green_oak_crib": {
     "criteria": {
       "has_oak_planks": "2026-02-21 05:47:56 +0000"
-    },
-    "done": true
-  },
-  "spartantwilight:recipes/steeleaf_rapier": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/cooking/torchberry_juice": {
-    "criteria": {
-      "has_torchberries": "2026-02-21 06:43:47 +0000"
-    },
-    "done": true
-  },
-  "spartantwilight:recipes/steeleaf_tomahawk": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "spartantwilight:recipes/steeleaf_battle_hammer": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_katana": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
-    },
-    "done": true
-  },
-  "twilightforest:twilight_hunter": {
-    "criteria": {
-      "kobold": "2026-02-21 05:44:00 +0000"
     },
     "done": true
   },
@@ -6036,45 +5820,9 @@
     },
     "done": true
   },
-  "spartantwilight:recipes/steeleaf_katana": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2026-02-21 06:38:32 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_heavy_crossbow": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
-    },
-    "done": true
-  },
   "mcwpaths:recipes/oak": {
     "criteria": {
       "has_wood": "2026-02-21 05:47:56 +0000"
-    },
-    "done": true
-  },
-  "spartantwilight:recipes/steeleaf_javelin": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_quarterstaff": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_tomahawk": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
     },
     "done": true
   },
@@ -6096,27 +5844,9 @@
     },
     "done": true
   },
-  "twilightforest:recipes/misc/compressed_blocks/reversed/ironwood_block_ingot": {
-    "criteria": {
-      "has_item": "2026-02-21 06:38:31 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_lance": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
       "has_planks": "2026-02-21 05:47:56 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_battle_hammer": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
     },
     "done": true
   },
@@ -6129,24 +5859,6 @@
   "mcwbridges:recipes/asian_red_bridge": {
     "criteria": {
       "has_planks": "2026-02-21 05:47:56 +0000"
-    },
-    "done": true
-  },
-  "spartantwilight:recipes/steeleaf_saber": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_pike": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_battleaxe": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
     },
     "done": true
   },
@@ -6174,51 +5886,9 @@
     },
     "done": true
   },
-  "spartantwilight:recipes/steeleaf_flanged_mace": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "spartantwilight:recipes/steeleaf_greatsword": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/building_blocks/compressed_blocks/steeleaf_block": {
-    "criteria": {
-      "has_item": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_javelin": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
-    },
-    "done": true
-  },
   "mca:recipes/decorations/lime_oak_crib": {
     "criteria": {
       "has_oak_planks": "2026-02-21 05:47:56 +0000"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/decorations/berry_torch": {
-    "criteria": {
-      "has_item": "2026-02-21 06:43:47 +0000"
-    },
-    "done": true
-  },
-  "spartantwilight:recipes/steeleaf_scythe": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "spartantwilight:recipes/steeleaf_pike": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
     },
     "done": true
   },
@@ -6228,21 +5898,9 @@
     },
     "done": true
   },
-  "twilightdelight:recipes/food/torchberry_cookie": {
-    "criteria": {
-      "has_torchberries": "2026-02-21 06:43:47 +0000"
-    },
-    "done": true
-  },
   "mca:recipes/decorations/black_oak_crib": {
     "criteria": {
       "has_oak_planks": "2026-02-21 05:47:56 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_dagger": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
     },
     "done": true
   },
@@ -6270,54 +5928,6 @@
     },
     "done": true
   },
-  "spartantwilight:recipes/steeleaf_glaive": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/food/berry_stick": {
-    "criteria": {
-      "has_torchberries": "2026-02-21 06:43:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/raw_iron": {
-    "criteria": {
-      "has_raw_iron_block": "2026-02-21 06:51:12 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/chicken_sandwich": {
-    "criteria": {
-      "has_cooked_chicken": "2026-02-21 05:55:44 +0000"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/food/torchberry_pie": {
-    "criteria": {
-      "has_torchberries": "2026-02-21 06:43:47 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/steel_glaive": {
-    "criteria": {
-      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
-    },
-    "done": true
-  },
-  "twilightforest:root": {
-    "criteria": {
-      "in_tf": "2026-02-21 05:42:25 +0000"
-    },
-    "done": true
-  },
-  "spartantwilight:recipes/steeleaf_dagger": {
-    "criteria": {
-      "has_steeleaf": "2026-02-21 06:54:59 +0000"
-    },
-    "done": true
-  },
   "mca:recipes/decorations/light_blue_oak_crib": {
     "criteria": {
       "has_oak_planks": "2026-02-21 05:47:56 +0000"
@@ -6330,9 +5940,399 @@
     },
     "done": true
   },
+  "twilightforest:hedge": {
+    "criteria": {
+      "swarm_spider": "2026-02-21 05:48:04 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/roast_chicken_block": {
+    "criteria": {
+      "has_cooked_chicken": "2026-02-21 05:55:44 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/chicken_sandwich": {
+    "criteria": {
+      "has_cooked_chicken": "2026-02-21 05:55:44 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_spear": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_longbow": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_halberd": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_scythe": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_throwing_knife": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_parrying_dagger": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_boomerang": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_warhammer": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_longsword": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_rapier": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_saber": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_flanged_mace": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_katana": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_heavy_crossbow": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_quarterstaff": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_tomahawk": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_lance": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_battle_hammer": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_pike": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_battleaxe": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_javelin": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_dagger": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/steel_glaive": {
+    "criteria": {
+      "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/steel_greatsword": {
     "criteria": {
       "has_steel_ingot": "2026-02-21 06:20:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:scythe": {
+    "criteria": {
+      "has_scythe": "2026-02-21 06:30:20 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:spear": {
+    "criteria": {
+      "has_spear": "2026-02-21 06:30:50 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:parrying_dagger": {
+    "criteria": {
+      "has_parrying_dagger": "2026-02-21 06:32:04 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/compressed_blocks/reversed/ironwood_block_ingot": {
+    "criteria": {
+      "has_item": "2026-02-21 06:38:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2026-02-21 06:38:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2026-02-21 06:38:32 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/magic_map_focus": {
+    "criteria": {
+      "has_berries": "2026-02-21 06:43:47 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/misc/torchberries_crate": {
+    "criteria": {
+      "has_torchberries": "2026-02-21 06:43:47 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/cooking/torchberry_juice": {
+    "criteria": {
+      "has_torchberries": "2026-02-21 06:43:47 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/berry_torch": {
+    "criteria": {
+      "has_item": "2026-02-21 06:43:47 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/torchberry_cookie": {
+    "criteria": {
+      "has_torchberries": "2026-02-21 06:43:47 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/berry_stick": {
+    "criteria": {
+      "has_torchberries": "2026-02-21 06:43:47 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/torchberry_pie": {
+    "criteria": {
+      "has_torchberries": "2026-02-21 06:43:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2026-02-21 06:51:12 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_heavy_crossbow": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_parrying_dagger": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_longsword": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_boomerang": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_battleaxe": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/misc/steeleaf_knife": {
+    "criteria": {
+      "has_steeleaf_ingot": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_warhammer": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_longbow": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_quarterstaff": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_spear": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_throwing_knife": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_halberd": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_rapier": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_tomahawk": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_battle_hammer": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_katana": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_javelin": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_saber": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_flanged_mace": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_greatsword": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/compressed_blocks/steeleaf_block": {
+    "criteria": {
+      "has_item": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_scythe": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_pike": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_glaive": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/steeleaf_dagger": {
+    "criteria": {
+      "has_steeleaf": "2026-02-21 06:54:59 +0000"
     },
     "done": true
   },
@@ -6342,9 +6342,9 @@
     },
     "done": true
   },
-  "twilightforest:hedge": {
+  "minecraft:adventure/shoot_arrow": {
     "criteria": {
-      "swarm_spider": "2026-02-21 05:48:04 +0000"
+      "shot_arrow": "2026-02-21 06:55:32 +0000"
     },
     "done": true
   },

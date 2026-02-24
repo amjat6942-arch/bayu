@@ -2986,6 +2986,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2026-02-23 03:34:10 +0000",
       "minecraft:skeleton": "2026-02-18 18:59:27 +0000",
       "minecraft:spider": "2026-02-19 01:18:12 +0000",
       "minecraft:creeper": "2026-02-21 02:29:29 +0000",
@@ -3689,7 +3690,8 @@
     "criteria": {
       "brown_mushroom": "2026-02-19 01:32:22 +0000",
       "sugar_cane": "2026-02-19 16:31:50 +0000",
-      "red_mushroom": "2026-02-19 17:56:29 +0000"
+      "red_mushroom": "2026-02-19 17:56:29 +0000",
+      "nether_wart": "2026-02-23 03:34:38 +0000"
     },
     "done": false
   },
@@ -4950,7 +4952,10 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "porkchop": "2026-02-19 10:17:59 +0000",
-      "cooked_chicken": "2026-02-21 06:28:28 +0000"
+      "pumpkin_pie": "2026-02-23 08:16:32 +0000",
+      "cooked_chicken": "2026-02-21 06:28:28 +0000",
+      "mushroom_stew": "2026-02-24 03:42:39 +0000",
+      "cod": "2026-02-24 03:26:35 +0000"
     },
     "done": false
   },
@@ -6354,18 +6359,6 @@
     },
     "done": true
   },
-  "twilightforest:arborist": {
-    "criteria": {
-      "canopy_log": "2026-02-21 13:42:42 +0000"
-    },
-    "done": false
-  },
-  "twilightforest:recipes/building_blocks/wood/canopy_wood": {
-    "criteria": {
-      "has_item": "2026-02-21 13:42:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2026-02-21 13:42:23 +0000"
@@ -6384,9 +6377,1234 @@
     },
     "done": true
   },
+  "twilightforest:arborist": {
+    "criteria": {
+      "twilight_oak_planks": "2026-02-24 03:02:26 +0000",
+      "canopy_chest": "2026-02-23 03:23:12 +0000",
+      "canopy_planks": "2026-02-23 04:19:42 +0000",
+      "canopy_sapling": "2026-02-23 03:27:39 +0000",
+      "twilight_oak_log": "2026-02-24 03:02:21 +0000",
+      "canopy_log": "2026-02-21 13:42:42 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/building_blocks/wood/canopy_wood": {
+    "criteria": {
+      "has_item": "2026-02-21 13:42:42 +0000"
+    },
+    "done": true
+  },
   "twilightforest:recipes/building_blocks/wood/canopy_planks": {
     "criteria": {
       "has_item": "2026-02-21 13:42:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_gold": {
+    "criteria": {
+      "has_raw_gold_block": "2026-02-22 09:13:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2026-02-22 09:14:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_banner": {
+    "criteria": {
+      "has_lime_wool": "2026-02-22 09:14:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed": {
+    "criteria": {
+      "has_lime_wool": "2026-02-22 09:14:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_carpet": {
+    "criteria": {
+      "has_lime_wool": "2026-02-22 09:14:50 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:magic_map": {
+    "criteria": {
+      "magic_map": "2026-02-22 09:17:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2026-02-22 09:24:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-02-22 09:24:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2026-02-22 09:24:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-02-22 09:24:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2026-02-22 09:24:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2026-02-22 09:24:22 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/stone": {
+    "criteria": {
+      "has_wood": "2026-02-22 09:24:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2026-02-22 09:24:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2026-02-22 09:24:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2026-02-22 09:24:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-02-22 09:24:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-02-22 09:24:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-02-22 09:24:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-02-22 09:24:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-02-22 09:24:22 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/arrow_slits_gothic": {
+    "criteria": {
+      "has_wood": "2026-02-22 09:24:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2026-02-22 09:27:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2026-02-22 09:27:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2026-02-22 09:27:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2026-02-22 09:27:13 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_lich": {
+    "criteria": {
+      "kill_naga": "2026-02-22 10:31:30 +0000",
+      "was_in_fight": "2026-02-23 10:19:11 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_naga": {
+    "criteria": {
+      "naga": "2026-02-22 10:31:30 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/naga_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2026-02-22 10:31:45 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/firefly_jar": {
+    "criteria": {
+      "has_item": "2026-02-23 03:23:25 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/food/food/smelted_venison": {
+    "criteria": {
+      "has_food": "2026-02-23 03:27:31 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/food/food/campfired_venison": {
+    "criteria": {
+      "has_food": "2026-02-23 03:27:31 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/food/food/smoked_venison": {
+    "criteria": {
+      "has_food": "2026-02-23 03:27:31 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/blueprint": {
+    "criteria": {
+      "has_item": "2026-02-23 03:27:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2026-02-23 03:27:40 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/books": {
+    "criteria": {
+      "has_item": "2026-02-23 03:27:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2026-02-23 03:27:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2026-02-23 03:27:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2026-02-23 03:27:41 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/family_tree": {
+    "criteria": {
+      "has_item": "2026-02-23 03:27:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2026-02-23 03:27:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2026-02-23 03:27:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-02-23 03:33:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-02-23 03:33:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2026-02-23 03:35:18 +0000",
+      "minecraft:basalt_deltas": "2026-02-23 03:33:28 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2026-02-23 03:33:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2026-02-23 03:34:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2026-02-23 03:34:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "nether_wart": "2026-02-23 03:34:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2026-02-23 03:41:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2026-02-23 03:41:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2026-02-23 03:42:08 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/blaze_pole": {
+    "criteria": {
+      "has_blaze_rod": "2026-02-23 03:42:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2026-02-23 03:42:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2026-02-23 03:42:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2026-02-23 03:42:11 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
+    "criteria": {
+      "has_diamond_backpack": "2026-02-23 04:07:03 +0000"
+    },
+    "done": true
+  },
+  "mca:hunted": {
+    "criteria": {
+      "iron": "2026-02-23 04:14:13 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/canopy_sign": {
+    "criteria": {
+      "has_item": "2026-02-23 04:19:42 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/canopy_fence": {
+    "criteria": {
+      "has_item": "2026-02-23 04:19:42 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/canopy_chest": {
+    "criteria": {
+      "has_item": "2026-02-23 04:19:42 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/wood/canopy_button": {
+    "criteria": {
+      "has_item": "2026-02-23 04:19:42 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/wood/canopy_plate": {
+    "criteria": {
+      "has_item": "2026-02-23 04:19:42 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/canopy_slab": {
+    "criteria": {
+      "has_item": "2026-02-23 04:19:42 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/wood/canopy_gate": {
+    "criteria": {
+      "has_item": "2026-02-23 04:19:42 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/canopy_bookshelf": {
+    "criteria": {
+      "has_item": "2026-02-23 04:19:42 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/canopy_stairs": {
+    "criteria": {
+      "has_item": "2026-02-23 04:19:42 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/wood/canopy_door": {
+    "criteria": {
+      "has_item": "2026-02-23 04:19:42 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/wood/canopy_trapdoor": {
+    "criteria": {
+      "has_item": "2026-02-23 04:19:42 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_3": {
+    "criteria": {
+      "has_stack_upgrade_tier_2": "2026-02-23 04:28:02 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:hill3": {
+    "criteria": {
+      "redcap": "2026-02-23 04:42:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2026-02-23 08:03:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2026-02-23 08:03:07 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:imbuement_chamber": {
+    "criteria": {
+      "has_imbuement_chamber": "2026-02-23 09:29:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/glass_bridge_stair": {
+    "criteria": {
+      "has_planks": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/glass_bridge": {
+    "criteria": {
+      "has_planks": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glass_pane": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glass_bottle": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/mosaic_glass": {
+    "criteria": {
+      "has_wood": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/glass_bridge_pier": {
+    "criteria": {
+      "has_planks": "2026-02-23 10:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2026-02-23 10:05:58 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:source_jar": {
+    "criteria": {
+      "has_source_jar": "2026-02-23 10:06:17 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_trophy_pedestal": {
+    "criteria": {
+      "kill_lich": "2026-02-23 10:19:11 +0000",
+      "trophy_pedestal": "2026-02-24 03:18:53 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_labyrinth": {
+    "criteria": {
+      "meef": "2026-02-24 02:55:54 +0000",
+      "kill_lich": "2026-02-23 10:19:11 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_yeti": {
+    "criteria": {
+      "previous_progression": "2026-02-23 10:19:11 +0000"
+    },
+    "done": false
+  },
+  "spartanweaponry:recipes/spectral_bolt": {
+    "criteria": {
+      "has_glowstone_dust": "2026-02-24 02:21:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2026-02-24 02:21:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2026-02-24 02:21:49 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/lich_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2026-02-24 02:24:56 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_pike": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_throwing_knife": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_greatsword": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_longbow": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_dagger": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_rapier": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_heavy_crossbow": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_quarterstaff": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_parrying_dagger": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_boomerang": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_flanged_mace": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_scythe": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/misc/ironwood_knife": {
+    "criteria": {
+      "has_ironwood_ingot": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/compressed_blocks/ironwood_block": {
+    "criteria": {
+      "has_item": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_battleaxe": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_lance": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_katana": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_warhammer": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_battle_hammer": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_glaive": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_tomahawk": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_longsword": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_saber": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/chocolate_wafer": {
+    "criteria": {
+      "has_maze_wafer": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_javelin": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_spear": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/ironwood_halberd": {
+    "criteria": {
+      "has_ironwood": "2026-02-24 02:42:06 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/tools/charm_of_keeping_2": {
+    "criteria": {
+      "has_item": "2026-02-24 02:50:03 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/minoshroom_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2026-02-24 02:53:46 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/glow_berry_custard": {
+    "criteria": {
+      "has_any_ingredient": "2026-02-24 02:53:57 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/hot_cocoa": {
+    "criteria": {
+      "has_any_ingredient": "2026-02-24 02:53:57 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/milk_bottle": {
+    "criteria": {
+      "has_milk_bucket": "2026-02-24 02:53:57 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/maze_map": {
+    "criteria": {
+      "has_item": "2026-02-24 02:54:12 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_dinner": {
+    "criteria": {
+      "meef_stroganoff": "2026-02-24 02:55:54 +0000"
+    },
+    "done": false
+  },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2026-02-24 02:55:54 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_hydra": {
+    "criteria": {
+      "trophy": "2026-02-24 03:08:53 +0000",
+      "stroganoff": "2026-02-24 02:55:54 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2026-02-24 02:55:54 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_nourishing_food": {
+    "criteria": {
+      "nourishment": "2026-02-24 02:55:54 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/twilight_oak_planks": {
+    "criteria": {
+      "has_item": "2026-02-24 03:02:21 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/twilight_oak_wood": {
+    "criteria": {
+      "has_item": "2026-02-24 03:02:21 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/twilight_oak_chest": {
+    "criteria": {
+      "has_item": "2026-02-24 03:02:26 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/wood/twilight_oak_gate": {
+    "criteria": {
+      "has_item": "2026-02-24 03:02:26 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/wood/twilight_oak_door": {
+    "criteria": {
+      "has_item": "2026-02-24 03:02:26 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/twilight_oak_stairs": {
+    "criteria": {
+      "has_item": "2026-02-24 03:02:26 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/twilight_oak_slab": {
+    "criteria": {
+      "has_item": "2026-02-24 03:02:26 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/wood/twilight_oak_button": {
+    "criteria": {
+      "has_item": "2026-02-24 03:02:26 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/wood/twilight_oak_trapdoor": {
+    "criteria": {
+      "has_item": "2026-02-24 03:02:26 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/twilight_oak_fence": {
+    "criteria": {
+      "has_item": "2026-02-24 03:02:26 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/twilight_oak_sign": {
+    "criteria": {
+      "has_item": "2026-02-24 03:02:26 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/wood/twilight_oak_plate": {
+    "criteria": {
+      "has_item": "2026-02-24 03:02:26 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/uncrafting_table": {
+    "criteria": {
+      "has_the_recipe": "2026-02-24 03:02:44 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_merge": {
+    "criteria": {
+      "hydra": "2026-02-24 03:08:53 +0000",
+      "ur_ghast": "2026-02-24 03:38:45 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/misc/hydra_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2026-02-24 03:08:53 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_fiery_boots": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/cooking/fiery_snakes_block": {
+    "criteria": {
+      "has_fiery_blood": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_longbow_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_heavy_crossbow_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_flanged_mace_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_halberd_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_lance_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_iron_sword": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_longsword_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_boomerang_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_saber_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_fiery_leggings": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_throwing_knife_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_greatsword_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_dagger_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_pike_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_battle_hammer_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_rapier_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_glaive_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_katana_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_quarterstaff_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/equipment/fiery_ingot_crafting": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_spear_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_javelin_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_fiery_chestplate": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_battleaxe_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_tomahawk_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_scythe_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/tools/equipment/fiery_iron_pickaxe": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_warhammer_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_fiery_helmet": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "spartantwilight:recipes/misc/fiery_parrying_dagger_vial": {
+    "criteria": {
+      "has_item": "2026-02-24 03:08:55 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/hydra_burger": {
+    "criteria": {
+      "has_hydra_chop": "2026-02-24 03:09:03 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_knights": {
+    "criteria": {
+      "previous_progression": "2026-02-24 03:18:53 +0000",
+      "was_in_fight": "2026-02-24 03:25:23 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_ur_ghast": {
+    "criteria": {
+      "previous_progression": "2026-02-24 03:25:23 +0000",
+      "was_in_fight": "2026-02-24 03:38:45 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/knight_phantom_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2026-02-24 03:25:58 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:ghast_trap": {
+    "criteria": {
+      "activate_ghast_trap": "2026-02-24 03:38:02 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/cooking/tear_drink": {
+    "criteria": {
+      "has_fiery_tears": "2026-02-24 03:39:02 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/carminite_builder": {
+    "criteria": {
+      "has_item": "2026-02-24 03:39:03 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/carminite_reactor": {
+    "criteria": {
+      "has_item": "2026-02-24 03:39:03 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/compressed_blocks/carminite_block": {
+    "criteria": {
+      "has_item": "2026-02-24 03:39:03 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_comfort_food": {
+    "criteria": {
+      "comfort": "2026-02-24 03:42:39 +0000"
     },
     "done": true
   },
